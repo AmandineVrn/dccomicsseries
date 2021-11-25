@@ -1,0 +1,127 @@
+<!doctype html>
+    <html>
+        <head>
+            <title>Peacemaker</title>
+            <link rel="stylesheet" href="css/header.css">
+            <link rel="stylesheet" href="css/normalize.css">
+            <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+            <meta charset="utf-8">
+            <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous"></script>
+        </head>
+        <body>
+            <header>
+                <nav class="menu" role="navigation">
+
+                    <div class="inner">
+                        <div class="m_left">
+                            <a href=Accueil.html><h1 class="logo">DC Comics Series</h1></a>
+                        </div>
+    
+                        <div class="m_right">
+                            <a href="Accueil.html" class="m_link"><i class="fas fa-home"></i> Accueil</a>
+                            <!-- <a href="#" class="m_link"><i class="far fa-newspaper"></i> Articles</a> -->
+                            <a href="#" class="m_link"><i class="fas fa-envelope"></i> Contacts</a>
+                            <a href="#" class="m_link"><i class="fas fa-question-circle"></i> A proppos</a>
+                        </div>
+                        <div class="m_nav_toggle">
+                            <span class="m_toggle_icon"></span>
+                        </div>
+
+                    </div>
+
+                </nav>
+            </header>
+
+            <div class="titre">
+                
+                <div class="poster">
+                    <a href="image/peacemaker_poster.jpg"><img src="image/peacemaker_poster-mini.jpg" alt="Poster de la série Peacemaker"></a>
+                </div>
+                <div class="infos">
+                    <div class="t_serie">
+                        <h3>Peacemaker</h3>
+                    </div>
+
+                    <div class="l_ext">
+                        <a href="https://www.imdb.com/title/tt13146488/" target=_blank><img class="svg1" src="image/l_ext/imdb.svg" alt="Logo imdb (Internet Movie Database)"></a>
+                        <a href="https://www.themoviedb.org/tv/110492" target=_blank><img class="svg1" src="image/l_ext/tmdb.svg" alt="Logo TMDB (The Movie Database)"></a>
+                        <a href="https://theposterdb.com/poster/190388" target=_blank><img class="svg2" src="image/l_ext/tpdb.svg" alt="Logo TPDB (The Poster Database)"></a>
+                        <!-- <a href="#"><img class="svg3" src="image/l_ext/tvtime.svg"></a> -->
+                    </div> 
+
+                    <div class="synopsis">
+                        <h3>Synopsis : </h3>
+                        <p>Peacemaker décide de tracer seule sa route après sa rupture avec le Joker. Avec l’aide de Poison Ivy et d’une équipe hétéroclite de marginaux DC, Harley tente de gagner une place à la plus grande table de la vilenie : la Legion of the Doom.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="block_2">
+                <div class="block2_p1">
+                    <div class="trailer">
+                        <h3 class="t_trailer">Bande Annonce VOSTFR :</h3>
+                        <iframe width="513" height="262.5" src="https://www.youtube.com/embed/-QwHBGzwBw4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                    
+                    <div class="ensemble_menu"><!-- titre + bouton episode saison-->
+                        <h3 class="t_m_episode">Liste des épisodes :</h3>
+                        <div class="b_saison">
+                            <div class="menu_d" id="menu1" onclick="afficheMenu(this)">
+                                <div class="t_saison"><a href="#">Saison 1</a></div>
+                            </div>
+                            <div id="sousmenu1" style="display:none">
+                                <ol>
+                                    <li>A Whole New Whirled</li>
+                                    <li>Best Friends Never</li>
+                                    <li>Better Goff Dead</li>
+                                    <li>Stop Dragon My Heart Around</li>
+                                    </ol>
+                            </div>
+
+                            
+
+                            
+
+                            
+                        </div><!-- bouton saison -->
+                    </div><!-- ensemble menu -->
+
+                </div><!-- block 2 part. 1-->
+                <div class="block2_p2">
+                    <div class="cast">
+                        <h3 class="t_cast">Cast :</h3>
+                        <div class="photo_cast">
+                            <table>
+                                <!--<div class="cast_info">
+                                    <div class="unite_photo_info"><a href="image/cast/hq_c_1.jpg"><img src="image/Cast/hq_c_1.jpg"></a><h5>Kaley Cuoco <br/><span class="cast_as">Peacemaker</span></h5></div>
+                                    <div class="unite_photo_info"><a href="image/cast/hq_c_2.jpg"><img src="image/Cast/hq_c_2.jpg"></a><h5>Lake Bell <br/><span class="cast_as">Poison Ivy</span></h5></div>
+                                    <div class="unite_photo_info"><a href="image/cast/hq_c_3.jpg"><img src="image/Cast/hq_c_3.jpg"></a><h5>Alan Tudyk <br/><span class="cast_as">Clayface</span></h5></div>
+                                    <div class="unite_photo_info"><a href="image/cast/hq_c_4.jpg"><img src="image/Cast/hq_c_4.jpg"></a><h5>Tony Hale <br/><span class="cast_as">Dr. Psycho</span></h5></div>
+                                    <div class="unite_photo_info"><a href="image/cast/hq_c_5.jpg"><img src="image/Cast/hq_c_5.jpg"></a><h5>Ron Funches <br/><span class="cast_as">King Shark</span></h5></div>
+                                    <div class="unite_photo_info"><a href="image/cast/hq_c_6.jpg"><img src="image/Cast/hq_c_6.jpg"></a><h5>J.B. Smoove <br/><span class="cast_as">Frank the Plant</span></h5></div>
+                                    <div class="unite_photo_info"><a href="image/cast/hq_c_7.jpg"><img src="image/Cast/hq_c_7.jpg"></a><h5>Jason Alexander <br/><span class="cast_as">Sy Borgan</span></h5></div>
+                                    <div class="unite_photo_info"><a href="image/cast/hq_c_8.jpg"><img src="image/Cast/hq_c_8.jpg"></a><h5>Matt Oberg <br/><span class="cast_as">Kite Man</span></h5></div>
+                                    <div class="unite_photo_info"><a href="image/cast/hq_c_9.jpg"><img src="image/Cast/hq_c_9.jpg"></a><h5>Alan Tudyk <br/><span class="cast_as">The Joker</span></h5></div>
+                                    <div class="unite_photo_info"><a href="image/cast/hq_c_10.jpg"><img src="image/Cast/hq_c_10.jpg"></a><h5>Diedrich Bader <br/><span class="cast_as">Batman</span></h5></div>
+                                    <div class="unite_photo_info"><a href="image/cast/hq_c_11.jpg"><img src="image/Cast/hq_c_11.jpg"></a><h5>Briana Cuoco <br/><span class="cast_as">Barbara Gordon</span></h5></div>
+                                    <div class="unite_photo_info"><a href="image/cast/hq_c_12.jpg"><img src="image/Cast/hq_c_12.jpg"></a><h5>James Adomian <br/><span class="cast_as">Bane</span></h5></div>
+                                    <div class="unite_photo_info"><a href="image/cast/hq_c_13.jpg"><img src="image/Cast/hq_c_13.jpg"></a><h5>Christopher Meloni <br/><span class="cast_as">James Gordon</span></h5></div>
+                                    <div class="unite_photo_info"><a href="image/cast/hq_c_14.jpg"><img src="image/Cast/hq_c_14.jpg"></a><h5>Jim Rash <br/><span class="cast_as">Riddler</span></h5></div>
+
+                                   
+                                </div> -->
+                            </table>
+                        </div>
+                    </div><!-- cast -->
+                </div><!-- bloc 2 p2 -->
+            </div><!-- bloc 2-->
+                      
+
+            <footer>
+                
+            </footer>
+
+            <script src="Js/app.js" charset="utf-8"></script>
+        </body>
+    </html>

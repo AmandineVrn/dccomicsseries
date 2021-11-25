@@ -1,0 +1,385 @@
+<!doctype html>
+    <html>
+        <head>
+            <title>Arrow</title>
+            <link rel="stylesheet" href="css/header.css">
+            <link rel="stylesheet" href="css/normalize.css">
+            <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+            <meta charset="utf-8">
+            <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous"></script>
+        </head>
+        <body>
+            <div class="contenu_html"><!-- contenu de tous le site sauf header -->
+                <header>
+                    <nav class="menu" role="navigation">
+
+                        <div class="inner"><!-- contenu header-->
+                            <div class="m_left">
+                                <a href=Accueil.html><h1 class="logo">DC Comics Series</h1></a>
+                            </div>
+        
+                            <div class="m_right">
+                                <a href="Accueil.html" class="m_link"><i class="fas fa-home"></i> Accueil</a>
+                                <!-- <a href="#" class="m_link"><i class="far fa-newspaper"></i> Articles</a> -->
+                                <a href="contact.html" class="m_link"><i class="fas fa-envelope"></i> Contacts</a>
+                                <a href="a_propos.html" class="m_link"><i class="fas fa-question-circle"></i> A proppos</a>
+                            </div>
+                            <div class="m_nav_toggle">
+                                <span class="m_toggle_icon"></span>
+                            </div>
+
+                        </div><!-- contenu header-->
+
+                    </nav>
+                </header>
+
+                <div class="titre">
+                    
+                    <div class="poster">
+                        <a href="image/arrow_poster.jpg"><img src="image/arrow_poster-mini.jpg" alt="Poster de la série arrow"></a>
+                    </div>
+                    <div class="infos">
+                        <div class="t_serie">
+                            <h3>Arrow</h3>
+                        </div>
+                        <div class="l_ext">
+                            <a href="https://www.imdb.com/title/tt2193021/" target=_blank><img class="svg1" src="image/l_ext/imdb.svg" alt="Logo imdb (Internet Movie Database)"></a>
+                            <a href="https://www.themoviedb.org/tv/1412-arrow" target=_blank><img class="svg1" src="image/l_ext/tmdb.svg" alt="Logo TMDB (The Movie Database)"></a>
+                            <a href="https://theposterdb.com/posters/3608" target=_blank><img class="svg2" src="image/l_ext/tpdb.svg" alt="Logo TPDB (The Poster Database)"></a>
+                            <!-- <a href="#"><img class="svg3" src="image/l_ext/tvtime.svg"></a> -->
+                        </div> 
+
+                        <div class="synopsis">
+                            <h3>Synopsis : </h3><br/>
+                            <p>A la suite d'un naufrage, Oliver Queen, un jeune playboy milliardaire, disparaît en mer avec son père et sa petite amie. ... Avec John Diggle, son garde du corps, et Félicity Smoak, une surdouée de l'informatique, Oliver mène en secret une guerre impitoyable contre le crime.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="block_2"><!-- Block 2-->
+                    <div class="block2_p1">
+                        <div class="trailer">
+                            <h3 class="t_trailer">Bande Annonce VF :</h3>
+                            <iframe width="513px" height="262.5px"  src="https://www.youtube.com/embed/nPCxc8vXMso"  frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                        
+                        <div class=ensemble_menu><!-- ensemble titre + contenu episode/saisons-->
+                            <h3 class="t_m_episode">Liste des épisodes :</h3>
+                            <div class="b_saison"><!-- contenu episode/saisons-->
+                                <div class="menu_d" id="menu1" onclick="afficheMenu(this)">
+                                    <div class="t_saison"><a href="#">Saison 1</a></div>
+                                </div>
+                                <div id="sousmenu1" style="display:none">
+                                    <ol class="episode_name">
+                                        <li>Le naufragé</li>
+                                        <li>La promesse</li>
+                                        <li>Ami ou ennemi ?</li>
+                                        <li>Un homme innocent</li>
+                                        <li>Le second archer</li>
+                                        <li>Héritages</li>
+                                        <li>Communion d'âmes</li>
+                                        <li>Vendetta</li>
+                                        <li>Pas de trêve pendant Noël</li>
+                                        <li>Brûlures</li>
+                                        <li>Méfiance aveugle</li>
+                                        <li>Vertigo</li>
+                                        <li>Trahison</li>
+                                        <li>L'Odyssée</li>
+                                        <li>Insaisissable</li>
+                                        <li>Dette de sang</li>
+                                        <li>L'instinct de vengeance</li>
+                                        <li>Le sauveur</li>
+                                        <li>Travail inachevé</li>
+                                        <li>Effraction</li>
+                                        <li>Mensonges et Manigances</li>
+                                        <li>Crépuscule</li>
+                                        <li>L'affrontement</li>
+                                    </ol>
+                                </div>
+                                
+
+                                
+                                
+                                <div class="menu_d" id="menu2" onclick="afficheMenu(this)">
+                                    <div class="t_saison"><a href="#">Saison 2</a></div>
+                                </div>
+                                <div id="sousmenu2" style="display:none">
+                                    <ol class="episode_name">
+                                        <li>Le combat continue</li>
+                                        <li>Démons intérieurs</li>
+                                        <li>L'union fait la force</li>
+                                        <li>Traverser les épreuves</li>
+                                        <li>La Ligue des Assassins</li>
+                                        <li>Pacte avec l'ennemi</li>
+                                        <li>Le procès</li>
+                                        <li>Le scientifique</li>
+                                        <li>Du poison dans les veines</li>
+                                        <li>Bombe à retardement</li>
+                                        <li>Le masque tombe</li>
+                                        <li>À la recherche du générateur</li>
+                                        <li>Vivre ou mourir</li>
+                                        <li>L'heure de la mort</li>
+                                        <li>La promesse</li>
+                                        <li>L'escadron suicide</li>
+                                        <li>Les anges de la nuit</li>
+                                        <li>Révélations</li>
+                                        <li> A découvert</li>
+                                        <li>Journée noire</li>
+                                        <li>Le calme avant la tempête</li>
+                                        <li>État de siège</li>
+                                        <li>L'assaut final</li>
+                                    </ol>
+                                </div>
+
+                                <div class="menu_d" id="menu3" onclick="afficheMenu(this)">
+                                    <div class="t_saison"><a href="#">Saison 3</a></div>
+                                </div>
+                                <div id="sousmenu3" style="display:none">
+                                    <ol class="episode_name">
+                                        <li>Le calme avant la tempête</li>
+                                        <li>L'adieu</li>
+                                        <li>L'ile de Corto Maltese</li>
+                                        <li>Le magicien</li>
+                                        <li>Le passé secret de Felicity Smoak</li>
+                                        <li>Un nouvel arsenal</li>
+                                        <li>Bourreau des coeurs</li>
+                                        <li>Le courage et l'audace</li>
+                                        <li>L'ascension</li>
+                                        <li>La débâcle</li>
+                                        <li>La nuit des justiciers</li>
+                                        <li>Guerre totale</li>
+                                        <li>Lutte fratricide</li>
+                                        <li> À l'origine</li>
+                                        <li>Bienvenue à Nanda Parbat</li>
+                                        <li>La Proposition</li>
+                                        <li>Démasqués</li>
+                                        <li>L'homme à abattre</li>
+                                        <li>Alliance nécessaire</li>
+                                        <li>Méconnaissable</li>
+                                        <li>Quelqu'un d'autre</li>
+                                        <li>Quelque chose d'autre</li>
+                                        <li>Je suis Oliver Queen</li>
+                                    </ol>
+                                </div>
+                                
+                                <div class="menu_d" id="menu4" onclick="afficheMenu(this)">
+                                    <div class="t_saison"><a href="#">Saison 4</a></div>
+                                </div>
+                                <div id="sousmenu4" style="display:none">
+                                    <ol class="episode_name">
+                                        <li>Une lumière dans les ténèbres</li>
+                                        <li>Amitié contrariée</li>
+                                        <li>Nouveaux instincts</li>
+                                        <li>Au service de la ville</li>
+                                        <li>A la recherche de l'âme perdue</li>
+                                        <li>Un problème de taille</li>
+                                        <li>Sauver la paix</li>
+                                        <li>Les Légendes d'hier</li>
+                                        <li>Pousser à bout</li>
+                                        <li>Pour Felicity</li>
+                                        <li>Les conséquences du passé</li>
+                                        <li>Trop lourd à porter</li>
+                                        <li>Le combat des maîtres</li>
+                                        <li>Sale temps pour un justicier</li>
+                                        <li>Le kidnapping</li>
+                                        <li>Victimes de l'amour</li>
+                                        <li>Lueur d'espoir</li>
+                                        <li>Dernière mission</li>
+                                        <li>Le chant du Canary</li>
+                                        <li>La phase finale</li>
+                                        <li>Avant la fin du monde</li>
+                                        <li>Le déluge</li>
+                                        <li>Rupture</li>
+                                    </ol>
+                                </div>
+
+                                <div class="menu_d" id="menu5" onclick="afficheMenu(this)">
+                                    <div class="t_saison"><a href="#">Saison 5</a></div>
+                                </div>
+                                <div id="sousmenu5" style="display:none">
+                                    <ol class="episode_name">
+                                        <li>Héritage</li>
+                                        <li>Nouvelles Recrues</li>
+                                        <li>Une question de confiance</li>
+                                        <li>Pénitence</li>
+                                        <li>La Cible humaine</li>
+                                        <li>Tout commence</li>
+                                        <li>Vigilante</li>
+                                        <li>Rêve ou Réalité</li>
+                                        <li>Une trace dans l'histoire</li>
+                                        <li>Qui es-tu ?</li>
+                                        <li>Secondes chances</li>
+                                        <li>Bratva</li>
+                                        <li>L'ombre des armes</li>
+                                        <li>Le purificateur</li>
+                                        <li>Combattre le mal par le mal</li>
+                                        <li>Échec et mat</li>
+                                        <li>Kapiushon</li>
+                                        <li>Sous protection</li>
+                                        <li>Liaisons dangereuses</li>
+                                        <li>Pièges</li>
+                                        <li>En l'honneur de nos pères</li>
+                                        <li>Disparus</li>
+                                        <li>Lian Yu</li>
+                                    </ol>
+                                </div>
+
+                                <div class="menu_d" id="menu6" onclick="afficheMenu(this)">
+                                    <div class="t_saison"><a href="#">Saison 6</a></div>
+                                </div>
+                                <div id="sousmenu6" style="display:none">
+                                    <ol class="episode_name">
+                                        <li>Les conséquences</li>
+                                        <li>Hommage</li>
+                                        <li>Parent proche</li>
+                                        <li>Inversion</li>
+                                        <li>Deathstroke, le retour</li>
+                                        <li>Promesses tenues</li>
+                                        <li>Thanksgiving</li>
+                                        <li>Crise sur Terre-X</li>
+                                        <li>Divergences</li>
+                                        <li>Divisés</li>
+                                        <li>La chute</li>
+                                        <li>Pour rien</li>
+                                        <li>La ruse du diable</li>
+                                        <li>Le clash</li>
+                                        <li>Double</li>
+                                        <li>La guilde Thanatos</li>
+                                        <li>Frères d'armes</li>
+                                        <li>Les fondamentaux</li>
+                                        <li>Le Dragon</li>
+                                        <li>Changer de camp</li>
+                                        <li>Dossier n°11-19-41-73</li>
+                                        <li>Les liens qui unissent</li>
+                                        <li>Perpétuité</li>
+                                    </ol>
+                                </div>
+
+                                <div class="menu_d" id="menu7" onclick="afficheMenu(this)">
+                                    <div class="t_saison"><a href="#">Saison 7</a></div>
+                                </div>
+                                <div id="sousmenu7" style="display:none">
+                                    <ol class="episode_name">
+                                        <li>Détenu 4587</li>
+                                        <li>La Tribu des chasseurs</li>
+                                        <li>La Justice ou la Loi</li>
+                                        <li>Niveau deux</li>
+                                        <li>Le démon</li>
+                                        <li>Procédure légale</li>
+                                        <li>Rédemption à Slabside</li>
+                                        <li>Démasqué</li>
+                                        <li>Les Autres Mondes, deuxième heure</li>
+                                        <li>Je m'appelle Emiko Queen</li>
+                                        <li>Crimes du passé</li>
+                                        <li>L'archer vert</li>
+                                        <li>Le tueur de Star City</li>
+                                        <li>Frères et seurs</li>
+                                        <li>La journée de formation</li>
+                                        <li>Star City 2040</li>
+                                        <li>L'héritage</li>
+                                        <li>Canari perdu</li>
+                                        <li>Spartan</li>
+                                        <li>Révélations</li>
+                                        <li>La preuve vivante</li>
+                                        <li>Sauver la ville</li>
+                                    </ol>
+                                </div>
+
+                                <div class="menu_d" id="menu8" onclick="afficheMenu(this)">
+                                    <div class="t_saison"><a href="#">Saison 8</a></div>
+                                </div>
+                                <div id="sousmenu8" style="display:none">
+                                    <ol class="episode_name">
+                                        <li>Starling City</li>
+                                        <li>Bienvenue à Hong Kong</li>
+                                        <li>Acte de foi</li>
+                                        <li>Le Présent</li>
+                                        <li>Prochnost</li>
+                                        <li>Réinitialisation</li>
+                                        <li>Le purgatoire</li>
+                                        <li>Crise sur les Terres infinies: Quatrième Heures (4)</li>
+                                        <li>L'Archer Vert et les Canaries</li>
+                                        <li>La disparition</li>
+                                    </ol>  
+                                </div>
+                            </div><!-- contenu episode/saisons-->
+                        </div><!-- ensemble titre + contenu episode/saisons-->
+               
+                    </div><!-- block 2 pt 1-->    
+                    <div class="block2_p2">
+                        <div class="cast">
+                            <h3 class="t_cast">Cast :</h3>
+                            <div class="photo_cast">
+                                <table>
+                                    <div class="cast_info">
+                                        <div class="unite_photo_info"><a href="image/cast/arrow_c_33.jpg"><img src="image/Cast/arrow_c_33.jpg"></a><h5>Stephen Amell <br/><span class="cast_as">Oliver Queen</span></h5></div>
+                                        <div class="unite_photo_info"><a href="image/cast/arrow_c_32.jpg"><img src="image/Cast/arrow_c_32.jpg"></a><h5>Emily Bett Rickards <br/><span class="cast_as">Felicity Smoak</span></h5></div>
+                                        <div class="unite_photo_info"><a href="image/cast/arrow_c_4.jpg"><img src="image/Cast/arrow_c_4.jpg"></a><h5>Willa Holland <br/><span class="cast_as">Thea Queen</span></h5></div>
+                                        <div class="unite_photo_info"><a href="image/cast/arrow_c_1.jpg"><img src="image/Cast/arrow_c_1.jpg"></a><h5>Katie Cassidy <br/><span class="cast_as">Laurel Lance</span></h5></div>
+                                        <div class="unite_photo_info"><a href="image/cast/arrow_c_3.jpg"><img src="image/Cast/arrow_c_3.jpg"></a><h5>David Ramsey <br/><span class="cast_as">John Diggle</span></h5></div>
+                                        <div class="unite_photo_info"><a href="image/cast/arrow_c_6.jpg"><img src="image/Cast/arrow_c_6.jpg"></a><h5>Paul Blackthorne <br/><span class="cast_as">Quentin Lance</span></h5></div>
+                                        <div class="unite_photo_info"><a href="image/cast/arrow_c_15.jpg"><img src="image/Cast/arrow_c_15.jpg"></a><h5>Colton Haynes <br/><span class="cast_as">Roy Harper</span></h5></div>
+                                        <div class="unite_photo_info"><a href="image/cast/arrow_c_16.jpg"><img src="image/Cast/arrow_c_16.jpg"></a><h5>John Barrowman <br/><span class="cast_as">Malcom Merlyn</span></h5></div>
+                                        <div class="unite_photo_info"><a href="image/cast/arrow_c_14.jpg"><img src="image/Cast/arrow_c_14.jpg"></a><h5>Susanna Thompson <br/><span class="cast_as">Moira Queen</span></h5></div>
+                                        <div class="unite_photo_info"><a href="image/cast/arrow_c_2.jpg"><img src="image/Cast/arrow_c_2.jpg"></a><h5>Colin Donnell <br/><span class="cast_as">Tommy Merlyn</span></h5></div>
+                                        <div class="unite_photo_info"><a href="image/cast/arrow_c_22.jpg"><img src="image/Cast/arrow_c_22.jpg"></a><h5>Audrey Marie Anderson <br/><span class="cast_as">Lyla Michaels</span></h5></div>
+                                        <div class="unite_photo_info"><a href="image/cast/arrow_c_26.jpg"><img src="image/Cast/arrow_c_26.jpg"></a><h5>Juliana Harkavy <br/><span class="cast_as">Dinah Drake</span></h5></div>
+                                        <div class="unite_photo_info"><a href="image/cast/arrow_c_25.jpg"><img src="image/Cast/arrow_c_25.jpg"></a><h5>Rick Gonzales <br/><span class="cast_as">Rene Ramirez</span></h5></div>
+                                        <div class="unite_photo_info"><a href="image/cast/arrow_c_24.jpg"><img src="image/Cast/arrow_c_24.jpg"></a><h5>Echo Kellum <br/><span class="cast_as">Curtis Holt</span></h5></div>
+                                        <div class="unite_photo_info"><a href="image/cast/arrow_c_19.jpg"><img src="image/Cast/arrow_c_19.jpg"></a><h5>Brandon Routh <br/><span class="cast_as">Ray Palmer</span></h5></div>
+                                        <div class="unite_photo_info"><a href="image/cast/arrow_c_17.jpg"><img src="image/Cast/arrow_c_17.jpg"></a><h5>Katrina Law <br/><span class="cast_as">Nissa al Ghul</span></h5></div>
+                                        <div class="unite_photo_info"><a href="image/cast/arrow_c_8.jpg"><img src="image/Cast/arrow_c_8.jpg"></a><h5>Caity Lotz <br/><span class="cast_as">Sara Lance</span></h5></div>
+                                        <div class="unite_photo_info"><a href="image/cast/arrow_c_9.jpg"><img src="image/Cast/arrow_c_9.jpg"></a><h5>Celina Jade <br/><span class="cast_as">Shado</span></h5></div>
+                                        <div class="unite_photo_info"><a href="image/cast/arrow_c_7.jpg"><img src="image/Cast/arrow_c_7.jpg"></a><h5>Byron Man <br/><span class="cast_as">Yao Fei Gulong</span></h5></div>
+                                        <div class="unite_photo_info"><a href="image/cast/arrow_c_10.jpg"><img src="image/Cast/arrow_c_10.jpg"></a><h5>Dylan Neal <br/><span class="cast_as">Anthony Ivo</span></h5></div>
+                                        <div class="unite_photo_info"><a href="image/cast/arrow_c_11.jpg"><img src="image/Cast/arrow_c_11.jpg"></a><h5>Manu Benett <br/><span class="cast_as">Slade Wilson</span></h5></div>
+                                        <div class="unite_photo_info"><a href="image/cast/arrow_c_18.jpg"><img src="image/Cast/arrow_c_18.jpg"></a><h5>Matthew Nable <br/><span class="cast_as">Ra's al Ghul</span></h5></div>
+                                        <div class="unite_photo_info"><a href="image/cast/arrow_c_23.jpg"><img src="image/Cast/arrow_c_23.jpg"></a><h5>Neal McDonough <br/><span class="cast_as">Damien Dark</span></h5></div>
+                                        <div class="unite_photo_info"><a href="image/cast/arrow_c_13.jpg"><img src="image/Cast/arrow_c_13.jpg"></a><h5>Kevin Alejandro <br/><span class="cast_as">Sebastian Blood</span></h5></div>
+                                        <div class="unite_photo_info"><a href="image/cast/arrow_c_27.jpg"><img src="image/Cast/arrow_c_27.jpg"></a><h5>Kirk Acevedo <br/><span class="cast_as">Ricardo Diaz</span></h5></div>
+                                        <div class="unite_photo_info"><a href="image/cast/arrow_c_28.jpg"><img src="image/Cast/arrow_c_28.jpg"></a><h5>Katherine McNamara <br/><span class="cast_as">Mia Smoak</span></h5></div>
+                                        <div class="unite_photo_info"><a href="image/cast/arrow_c_30.jpg"><img src="image/Cast/arrow_c_30.jpg"></a><h5>Ben Lewis <br/><span class="cast_as">Wiliam Clayton</span></h5></div>
+                                        <div class="unite_photo_info"><a href="image/cast/arrow_c_31.jpg"><img src="image/Cast/arrow_c_31.jpg"></a><h5>Andrea Sixtos <br/><span class="cast_as">Zoe Ramirez</span></h5></div>
+                                        <div class="unite_photo_info"><a href="image/cast/arrow_c_29.jpg"><img src="image/Cast/arrow_c_29.jpg"></a><h5>Sea Shimooka <br/><span class="cast_as">Emiko Queen</span></h5></div>
+                                        <div class="unite_photo_info"><a href="image/cast/arrow_c_20.jpg"><img src="image/Cast/arrow_c_20.jpg"></a><h5>Karl Yune <br/><span class="cast_as">Maseo Yamashiro</span></h5></div>
+                                        <div class="unite_photo_info"><a href="image/cast/arrow_c_21.jpg"><img src="image/Cast/arrow_c_21.jpg"></a><h5>Rila Fukushima <br/><span class="cast_as">Tastsu Yamashiro</span></h5></div>
+                                        <div class="unite_photo_info"><a href="image/cast/arrow_c_5.jpg"><img src="image/Cast/arrow_c_5.jpg"></a><h5>Colin Salmon<br/><span class="cast_as">Walter Steele</span></h5></div>
+
+                                    </div><!-- Cast info -->
+                                </table>
+                            </div><!-- Block Cast Photo -->
+                            
+                        </div><!-- cast-->
+                    </div><!-- block 2 pt 2-->
+                </div><!-- block 2-->        
+
+                <footer>
+                    <div class="contenu_footer">
+                        <!-- <div class="bloc credits">
+                            <h4>Crédits :</h4>
+                            <ul class="l_credits">
+                                <li>Posters Arrow jusqu'à Harley Quinn : <a href="https://theposterdb.com/user/ishalioh" target="_blank">Ishalioh</a></br></li>
+                                <li>Poster Young Justice : <a href="https://theposterdb.com/user/ceefight" target="_blank">CeeFight</a></br></li>
+                                <li>Poster Powerless : <a href="https://theposterdb.com/user/darth3pio" target="_blank">Darth3pio</a><br/></li>
+                                <li>Poster Gotham : <a href="https://theposterdb.com/user/leburn98" target="_blank">Leburn98</a><br/></li>
+                            </ul>   
+                        </div>
+                        <div class="bloc navigation">
+                            <h4>Navigation :</h4>
+                            <ul>
+                                <li><a href="Accueil.html">Accueil</a></li>
+                                <li><a href="Contact.html">Contacts</a></li>
+                                <li><a href="a_propos.html">A Propos</a></li>
+                            </ul>
+
+                        </div>    
+                    </div> -->
+                    
+                    
+                </footer>
+
+                <script src="Js/app.js" charset="utf-8"></script>
+            </div><!-- Contenu tous le site sauf header-->  
+        </body>
+    </html>

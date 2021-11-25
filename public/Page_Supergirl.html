@@ -1,0 +1,294 @@
+<!doctype html>
+    <html>
+        <head>
+            <title>Supergirl</title>
+            <link rel="stylesheet" href="css/header.css">
+            <link rel="stylesheet" href="css/normalize.css">
+            <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+            <meta charset="utf-8">
+            <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous"></script>
+        </head>
+        <body>
+            <header>
+                <nav class="menu" role="navigation">
+
+                    <div class="inner">
+                        <div class="m_left">
+                            <a href=Accueil.html><h1 class="logo">DC Comics Series</h1></a>
+                        </div>
+    
+                        <div class="m_right">
+                            <a href="Accueil.html" class="m_link"><i class="fas fa-home"></i> Accueil</a>
+                            <!-- <a href="#" class="m_link"><i class="far fa-newspaper"></i> Articles</a> -->
+                            <a href="#" class="m_link"><i class="fas fa-envelope"></i> Contacts</a>
+                            <a href="#" class="m_link"><i class="fas fa-question-circle"></i> A proppos</a>
+                        </div>
+                        <div class="m_nav_toggle">
+                            <span class="m_toggle_icon"></span>
+                        </div>
+
+                        
+
+                    </div>
+
+                </nav>
+            </header>
+
+            <div class="titre">
+                
+                <div class="poster">
+                    <a href="image/supergirl_poster.jpg"><img src="image/supergirl_poster-mini.jpg" alt="Poster de la série Supergirl"></a>
+                </div> 
+                <div class="infos">
+                    <div class="t_serie">
+                        <h3>Supergirl</h3>
+                    </div>
+
+                    <div class="l_ext">
+                        <a href="https://www.imdb.com/title/tt4016454" target=_blank><img class="svg1" src="image/l_ext/imdb.svg" alt="Logo imdb (Internet Movie Database)"></a>
+                        <a href="https://www.themoviedb.org/tv/62688-supergirl" target=_blank><img class="svg1" src="image/l_ext/tmdb.svg" alt="Logo TMDB (The Movie Database)"></a>
+                        <a href="https://theposterdb.com/posters/5399" target=_blank><img class="svg2" src="image/l_ext/tpdb.svg" alt="Logo TPDB (The Poster Database)"></a>
+                        <!-- <a href="#"><img class="svg3" src="image/l_ext/tvtime.svg"></a> -->
+                    </div> 
+
+                    <div class="synopsis">
+                        <h3>Synopsis : </h3>
+                        <p>Les aventures de Kara Zor-El, la cousine de Superman, alias Supergirl. A 24 ans, la jeune femme, qui mène sa vie en marge de celle de son célèbre cousin, se sent impuissante face à ses pouvoirs extraordinaires qu'on lui a appris à ne pas utiliser. Employée dans un grand média de National City, elle va se retrouver à mener une double vie pour combattre le crime dans sa ville.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="block_2">
+                <div class="block2_p1">
+                    <div class="trailer">
+                        <h3 class="t_trailer">Bande Annonce VF :</h3>
+                        <iframe width="513" height="262.5" src="https://www.youtube.com/embed/4qDnBP7hAoY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                    
+                    <div class="ensemble_menu"><!-- titre + bouton episode saison-->
+                        <h3 class="t_m_episode">Liste des épisodes :</h3>
+                        <div class="b_saison">
+                            <div class="menu_d" id="menu1" onclick="afficheMenu(this)">
+                                <div class="t_saison"><a href="#">Saison 1</a></div>
+                            </div>
+                            <div id="sousmenu1" style="display:none">
+                                <ol class="episode_name">
+                                    <li>Une nouvelle héroïne</li>
+                                    <li>Période d'essais</li>
+                                    <li>Dans l'ombre de Superman</li>
+                                    <li>Hautes tensions</li>
+                                    <li>Mais comment fait-elle ?</li>
+                                    <li>Plus loin, plus proche</li>
+                                    <li>Devenir meilleure</li>
+                                    <li>L'importance des secrets</li>
+                                    <li>L'instant de vérité</li>
+                                    <li>Héritage explosif</li>
+                                    <li>Les visiteurs</li>
+                                    <li>Une place pour deux</li>
+                                    <li>Un monde parfait</li>
+                                    <li>La rivale</li>
+                                    <li>Moments de solitude</li>
+                                    <li>Super méchante</li>
+                                    <li>La véritable histoire de J'onn J'onzz</li>
+                                    <li> À deux c'est mieux</li>
+                                    <li>Alliance de la dernière chance</li>
+                                    <li>Condamnée à l'exploit</li>
+                                </ol>
+                            </div>
+
+                            <div class="menu_d" id="menu2" onclick="afficheMenu(this)">
+                                <div class="t_saison"><a href="#">Saison 2</a></div>
+                            </div>
+                            <div id="sousmenu2" style="display:none">
+                                <ol class="episode_name">
+                                    <li>Le monde à ses pieds</li>
+                                    <li>Les derniers enfants de Krypton</li>
+                                    <li>Rencontre au sommet</li>
+                                    <li>Espoir déçu</li>
+                                    <li> À armes inégales</li>
+                                    <li>Climat défavorable</li>
+                                    <li>Au ceur de Cadmus</li>
+                                    <li>L'arme parfaite (1)</li>
+                                    <li>La porte des étoiles</li>
+                                    <li>Ennemie jurée</li>
+                                    <li>L'un d'entre nous.</li>
+                                    <li>L'ADN des Luthor</li>
+                                    <li>Mariage forcé</li>
+                                    <li>Libéré mais pas délivré</li>
+                                    <li>Le projet Exodus</li>
+                                    <li>Le prince de Daxam (1)</li>
+                                    <li>Soleil lointain</li>
+                                    <li>Cobaye humain</li>
+                                    <li>Jalousie d'enfance</li>
+                                    <li>La cité des enfants perdus</li>
+                                    <li>La grande invasion</li>
+                                    <li>Le sens du devoir</li>
+                                </ol>
+                            </div>
+
+                            <div class="menu_d" id="menu3" onclick="afficheMenu(this)">
+                                <div class="t_saison"><a href="#">Saison 3</a></div>
+                            </div>
+                            <div id="sousmenu3" style="display:none">
+                                <ol class="episode_name">
+                                    <li>Coeur d'acier</li>
+                                    <li>Psychose</li>
+                                    <li>Se défaire du passé</li>
+                                    <li>Fidèlement fou</li>
+                                    <li>Dommages et intérêts</li>
+                                    <li>Retour à Midvale</li>
+                                    <li>La renaissance du mal</li>
+                                    <li>Terre-X : Célébrations (1)</li>
+                                    <li>Le règne de Reign</li>
+                                    <li>Au chevet de la paix</li>
+                                    <li>Enquête à Fort Rozz</li>
+                                    <li>Le mis à mal</li>
+                                    <li>L'hôte indésirable</li>
+                                    <li>Vers l'infini et au-delà</li>
+                                    <li>L'élève devient le maître</li>
+                                    <li>Les deux esprits</li>
+                                    <li>L'union terrible</li>
+                                    <li>Le Manoir invisible</li>
+                                    <li>Les fanatiques</li>
+                                    <li>La face cachée de Krypton</li>
+                                    <li>Dédoublement de personnalité</li>
+                                    <li>Les sorcières de Juru</li>
+                                    <li>Guerres et conséquences</li>
+                                </ol>
+                            </div>
+
+                            <div class="menu_d" id="menu4" onclick="afficheMenu(this)">
+                                <div class="t_saison"><a href="#">Saison 4</a></div>
+                            </div>
+                            <div id="sousmenu4" style="display:none">
+                                <ol class="episode_name">
+                                    <li>Chasse aux aliens</li>
+                                    <li>Protégeons la Terre</li>
+                                    <li>L'âge de l'acier</li>
+                                    <li>Non-violence</li>
+                                    <li>Parasite perdu</li>
+                                    <li>La révolte gronde</li>
+                                    <li>Bienvenue sur Shelley Island</li>
+                                    <li>Le rêve de Liberty</li>
+                                    <li>Elseworlds : La Troisième heure (3)</li>
+                                    <li>Soupçons</li>
+                                    <li>La Rage au ventre</li>
+                                    <li>La voleuse de diamants</li>
+                                    <li>Justice pour tous ?</li>
+                                    <li>Une main tendue</li>
+                                    <li>Au nom du frère</li>
+                                    <li>La fille en rouge</li>
+                                    <li>Mystérieuse Eve</li>
+                                    <li>Crime et châtiment</li>
+                                    <li>Le pouvoir des mots</li>
+                                    <li>Un accueil inattendu</li>
+                                    <li>Tigre de papier</li>
+                                    <li>Le triomphe de la vérité</li>
+                                </ol>
+                            </div>
+
+                            <div class="menu_d" id="menu5" onclick="afficheMenu(this)">
+                                <div class="t_saison"><a href="#">Saison 5 </a></div>
+                            </div>
+                            <div id="sousmenu5" style="display:none">
+                                <ol class="episode_name">
+                                    <li>Vortex</li>
+                                    <li>Travail sur soi</li>
+                                    <li>Prise de contrôle</li>
+                                    <li>À la poursuite de Maléfic</li>
+                                    <li>Liaisons dangereuses</li>
+                                    <li>Le médaillon d'Acrata</li>
+                                    <li>Fusion</li>
+                                    <li>La colère de Rama Khan</li>
+                                    <li>Crisis on Infinite Earths : La menace (1)</li>
+                                    <li>La capsule</li>
+                                    <li>Retour du futur, première partie</li>
+                                    <li>Retour du futur, deuxième partie</li>
+                                    <li>Réécrire l'histoire</li>
+                                    <li>La garde du corps</li>
+                                    <li>Monde virtuel, haine réelle</li>
+                                    <li>Alex au pays des merveilles</li>
+                                    <li>Deus Lex Machina</li>
+                                    <li>Le chaînon manquant</li>
+                                    <li>Combat d'immortels</li>
+                                </ol>
+                            </div>
+
+                            <div class="menu_d" id="menu6" onclick="afficheMenu(this)">
+                                <div class="t_saison"><a href="#">Saison 6</a></div>
+                            </div>
+                            <div id="sousmenu6" style="display:none">
+                                <ol class="episode_name">
+                                    <li>Renaissance</li>
+                                    <li>Quelques bonnes femmes</li>
+                                    <li>Menaces fantômes</li>
+                                    <li>Âmes perdues</li>
+                                    <li>Soirée de bal</li>
+                                    <li>Encore un bal !</li>
+                                    <li>Noué de peur</li>
+                                    <li>Bon retour, Kara</li>
+                                    <li>Tisseuse de rêves</li>
+                                    <li>Je me relèverai toujours</li>
+                                    <li>Mxy au coeur de l'action</li>
+                                    <li>Angles morts</li>
+                                    <li>Le Gantelet</li>
+                                    <li>Pensée magique</li>
+                                    <li>Espoir pour demain</li>
+                                    <li>Cauchemar à National City</li>
+                                    <li>Je crois en une chose appelée amour</li>
+                                    <li>Vérité ou Conséquences</li>
+                                    <li>Le dernier gantelet</li>
+                                    <li>Kara</li>
+                                </ol>
+                            </div>
+
+                            
+
+                            
+                        </div><!-- bouton saison -->
+                    </div><!-- ensemble menu -->
+
+                </div><!-- block 2 part. 1-->
+                <div class="block2_p2">
+                    <div class="cast">
+                        <h3 class="t_cast">Cast :</h3>
+                        <div class="photo_cast">
+                            <table>
+                                <div class="cast_info">
+                                    <div class="unite_photo_info"><a href="image/cast/supergirl_c_20.jpg"><img src="image/Cast/supergirl_c_20.jpg"></a><h5>Melissa Benoist <br/><span class="cast_as">Kara Danvers / Zor-El</span></h5></div>
+                                    <div class="unite_photo_info"><a href="image/cast/supergirl_c_19.jpg"><img src="image/Cast/supergirl_c_19.jpg"></a><h5>Chyler Leigh <br/><span class="cast_as">Alex Danvers</span></h5></div>
+                                    <div class="unite_photo_info"><a href="image/cast/supergirl_c_15.jpg"><img src="image/Cast/supergirl_c_15.jpg"></a><h5>David Harewood <br/><span class="cast_as">J'onn J'onzz</span></h5></div>
+                                    <div class="unite_photo_info"><a href="image/cast/supergirl_c_10.jpg"><img src="image/Cast/supergirl_c_10.jpg"></a><h5>Danielle Maines <br/><span class="cast_as">Nia Nal</span></h5></div>
+                                    <div class="unite_photo_info"><a href="image/cast/supergirl_c_1.jpg"><img src="image/Cast/supergirl_c_1.jpg"></a><h5>Jon Cryer <br/><span class="cast_as">Lex Luthor</span></h5></div>
+                                    <div class="unite_photo_info"><a href="image/cast/supergirl_c_9.jpg"><img src="image/Cast/supergirl_c_9.jpg"></a><h5>Jesse Rath <br/><span class="cast_as">Brainy</span></h5></div>
+                                    <div class="unite_photo_info"><a href="image/cast/supergirl_c_13.jpg"><img src="image/Cast/supergirl_c_13.jpg"></a><h5>Katie McGrath <br/><span class="cast_as">Lena Luthor</span></h5></div>
+                                    <div class="unite_photo_info"><a href="image/cast/supergirl_c_5.jpg"><img src="image/Cast/supergirl_c_5.jpg"></a><h5>Azie Tesfai <br/><span class="cast_as">Kelly Olsen</span></h5></div>
+                                    <div class="unite_photo_info"><a href="image/cast/supergirl_c_2.jpg"><img src="image/Cast/supergirl_c_2.jpg"></a><h5>Staz Nair <br/><span class="cast_as">William Dey</span></h5></div>
+                                    <div class="unite_photo_info"><a href="image/cast/supergirl_c_4.jpg"><img src="image/Cast/supergirl_c_4.jpg"></a><h5>Julie Gonzalo <br/><span class="cast_as">Andrea Rojas</span></h5></div>
+                                    <div class="unite_photo_info"><a href="image/cast/supergirl_c_12.jpg"><img src="image/Cast/supergirl_c_12.jpg"></a><h5>Floriana Lima <br/><span class="cast_as">Maggie Sawyers</span></h5></div>
+                                    <div class="unite_photo_info"><a href="image/cast/supergirl_c_18.jpg"><img src="image/Cast/supergirl_c_18.jpg"></a><h5>Calista Flockhart <br/><span class="cast_as">Cat Grant</span></h5></div>
+                                    <div class="unite_photo_info"><a href="image/cast/supergirl_c_17.jpg"><img src="image/Cast/supergirl_c_17.jpg"></a><h5>Jeremy Jordan <br/><span class="cast_as">Winn Schott Jr.</span></h5></div>
+                                    <div class="unite_photo_info"><a href="image/cast/supergirl_c_16.jpg"><img src="image/Cast/supergirl_c_16.jpg"></a><h5>Mehcad Brooks <br/><span class="cast_as">Jimmy Olsen</span></h5></div>
+                                    <div class="unite_photo_info"><a href="image/cast/supergirl_c_14.jpg"><img src="image/Cast/supergirl_c_14.jpg"></a><h5>Christopher Wood <br/><span class="cast_as">Mon-El</span></h5></div>
+                                    <div class="unite_photo_info"><a href="image/cast/supergirl_c_11.jpg"><img src="image/Cast/supergirl_c_11.jpg"></a><h5>Odette Anable <br/><span class="cast_as">Samantha Arias</span></h5></div>
+                                    <div class="unite_photo_info"><a href="image/cast/supergirl_c_6.jpg"><img src="image/Cast/supergirl_c_6.jpg"></a><h5>Samantha Arias <br/><span class="cast_as">Eve Teschmacher</span></h5></div>
+                                    <div class="unite_photo_info"><a href="image/cast/supergirl_c_3.jpg"><img src="image/Cast/supergirl_c_3.jpg"></a><h5>Sam Witner <br/><span class="cast_as">Ben Lockwood</span></h5></div>
+                                    <div class="unite_photo_info"><a href="image/cast/supergirl_c_8.jpg"><img src="image/Cast/supergirl_c_8.jpg"></a><h5>Rhona Mitra <br/><span class="cast_as">Mercy Graves</span></h5></div>
+                                    <div class="unite_photo_info"><a href="image/cast/supergirl_c_7.jpg"><img src="image/Cast/supergirl_c_7.jpg"></a><h5>Robert Baker <br/><span class="cast_as">Otis Graves</span></h5></div>
+                                </div>
+                            </table>
+                        </div>
+                    </div><!-- cast -->
+                </div><!-- bloc 2 p2 -->
+            </div><!-- bloc 2-->
+
+                      
+
+            <footer>
+                
+            </footer>
+
+            <script src="Js/app.js" charset="utf-8"></script>
+        </body>
+    </html>

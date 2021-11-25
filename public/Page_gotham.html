@@ -1,0 +1,246 @@
+<!doctype html>
+    <html>
+        <head>
+            <title>Gotham</title>
+            <link rel="stylesheet" href="css/header.css">
+            <link rel="stylesheet" href="css/normalize.css">
+            <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+            <meta charset="utf-8">
+            <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous"></script>
+        </head>
+        <body>
+            <header>
+                <nav class="menu" role="navigation">
+
+                    <div class="inner">
+                        <div class="m_left">
+                            <a href=Accueil.html><h1 class="logo">DC Comics Series</h1></a>
+                        </div>
+    
+                        <div class="m_right">
+                            <a href="Accueil.html" class="m_link"><i class="fas fa-home"></i> Accueil</a>
+                            <!-- <a href="#" class="m_link"><i class="far fa-newspaper"></i> Articles</a> -->
+                            <a href="#" class="m_link"><i class="fas fa-envelope"></i> Contacts</a>
+                            <a href="#" class="m_link"><i class="fas fa-question-circle"></i> A proppos</a>
+                        </div>
+                        <div class="m_nav_toggle">
+                            <span class="m_toggle_icon"></span>
+                        </div>
+
+                    </div>
+
+                </nav>
+            </header>
+
+            <div class="titre">
+                
+                <div class="poster">
+                    <a href="image/gotham_poster.jpg"><img src="image/gotham_poster-mini.jpg" alt="Poster de la série Gotham"></a>
+                </div>
+                <div class="infos">
+                    <div class="t_serie">
+                        <h3>Gotham</h3>
+                    </div>
+
+                    <div class="l_ext">
+                        <a href="https://www.imdb.com/title/tt3749900/" target=_blank><img class="svg1" src="image/l_ext/imdb.svg" alt="Logo imdb (Internet Movie Database)"></a>
+                        <a href="https://www.themoviedb.org/tv/60708" target=_blank><img class="svg1" src="image/l_ext/tmdb.svg" alt="Logo TMDB (The Movie Database)"></a>
+                        <a href="https://theposterdb.com/posters/19893" target=_blank><img class="svg2" src="image/l_ext/tpdb.svg" alt="Logo TPDB (The Poster Database)"></a>
+                        <!-- <a href="#"><img class="svg3" src="image/l_ext/tvtime.svg"></a> -->
+                    </div> 
+
+                    <div class="synopsis">
+                        <h3>Synopsis : </h3>
+                        <p>Tout le monde connaît le Commissaire Gordon, valeureux adversaire des plus dangereux criminels, un homme dont la réputation rime avec "loi" et "ordre". Mais que sait-on de son histoire ? De son ascension dans une institution corrompue, qui gangrène une ville comme Gotham, terrain fertile des méchants les plus emblématiques ? Comment sont nées ces figures du crime, ces personnages hors du commun que sont Catwoman, le Pingouin, l'Homme-mystère, Double-Face et le Joker ?</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="block_2">
+                <div class="block2_p1">
+                    <div class="trailer">
+                        <h3 class="t_trailer">Bande Annonce VOSTFR :</h3>
+                        <iframe width="513" height="262.5" src="https://www.youtube.com/embed/NhNnbjIBlos" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                    
+                    <div class="ensemble_menu"><!-- titre + bouton episode saison-->
+                        <h3 class="t_m_episode">Liste des épisodes :</h3>
+                        <div class="b_saison">
+                            <div class="menu_d" id="menu1" onclick="afficheMenu(this)">
+                                <div class="t_saison"><a href="#">Saison 1</a></div>
+                            </div>
+                            <div id="sousmenu1" style="display:none">
+                                <ol class="episode_name">
+                                    <li>Bruce Wayne</li>
+                                    <li>Selina Kyle</li>
+                                    <li>L'homme aux ballons</li>
+                                    <li>Projet Arkham</li>
+                                    <li>Viper</li>
+                                    <li>Sous le masque du mal</li>
+                                    <li>Le Pingouin</li>
+                                    <li>L'homme au masque</li>
+                                    <li>Harvey Dent</li>
+                                    <li>Jeunes fugitifs</li>
+                                    <li>Bienvenue à l'asile</li>
+                                    <li>Un petit oiseau m'a dit</li>
+                                    <li>Le grand retour de Jim Gordon</li>
+                                    <li>Morts de peur</li>
+                                    <li>Jonathan Crane</li>
+                                    <li>Dernier tour de piste</li>
+                                    <li>La clinique de l'étrange</li>
+                                    <li>Chacun a ses petits secrets</li>
+                                    <li>Le Don Juan meurtrier</li>
+                                    <li>A visage découvert</li>
+                                    <li>Le marteau et l'enclume</li>
+                                    <li>Gotham à feu et à sang</li>
+                                    </ol>
+                            </div>
+
+                            <div class="menu_d" id="menu2" onclick="afficheMenu(this)">
+                                <div class="t_saison"><a href="#">Saison 2</a></div>
+                            </div>
+                            <div id="sousmenu2" style="display:none">
+                                <ol class="episode_name">
+                                    <li>Le secret de Thomas Wayne</li>
+                                    <li>Les Maniax attaquent</li>
+                                    <li>Rira bien qui rira le dernier</li>
+                                    <li>La force de frappe</li>
+                                    <li>Le bras de la vengeance</li>
+                                    <li>Le feu du désespoir</li>
+                                    <li>A chacun sa vérité</li>
+                                    <li>Duel au sommet</li>
+                                    <li>Injustice et manigances</li>
+                                    <li>Le fils de Gotham</li>
+                                    <li>Du sang sur les mains</li>
+                                    <li>Sueurs froides</li>
+                                    <li>D'amour et de glace</li>
+                                    <li>Tuer le tueur</li>
+                                    <li>On ne choisit pas sa famille</li>
+                                    <li>Entre quatre murs</li>
+                                    <li>Amis ou ennemis</li>
+                                    <li>Promesses tenues</li>
+                                    <li>Azrael</li>
+                                    <li>L'union fait la force</li>
+                                    <li>Les soldats du professeur Strange</li>
+                                    <li>Métamorphoses</li>
+                                </ol>
+                            </div>
+
+                            <div class="menu_d" id="menu3" onclick="afficheMenu(this)">
+                                <div class="t_saison"><a href="#">Saison 3</a></div>
+                            </div>
+                            <div id="sousmenu3" style="display:none">
+                                <ol class="episode_name">
+                                    <li>Paradis perdu</li>
+                                    <li>Terreur sur la ville</li>
+                                    <li>L'Hypnotiseur extraordinaire</li>
+                                    <li>Votez Cobblepot !</li>
+                                    <li>Raison et sentiments</li>
+                                    <li>Sauve qui peut.</li>
+                                    <li>La Reine rouge</li>
+                                    <li>Rage sanglante</li>
+                                    <li>Juge et bourreau</li>
+                                    <li>La Cour des Hiboux</li>
+                                    <li>Jaloux à mort</li>
+                                    <li>La Colère du père</li>
+                                    <li>Un si beau sourire</li>
+                                    <li>La Nuit la plus longue</li>
+                                    <li>Le Mystère Ed Nygma</li>
+                                    <li>Passés empoisonnés</li>
+                                    <li>Le Plus grand des défis</li>
+                                    <li>Dernière valse</li>
+                                    <li>Association de malfaiteurs</li>
+                                    <li>Six pieds sous terre</li>
+                                    <li>L'Appel du destin</li>
+                                    <li>Le Chevalier des ténèbres</li>
+                                </ol>
+                            </div>
+
+                            <div class="menu_d" id="menu4" onclick="afficheMenu(this)">
+                                <div class="t_saison"><a href="#">Saison 4</a></div>
+                            </div>
+                            <div id="sousmenu4" style="display:none">
+                                <ol class="episode_name">
+                                    <li>Pax Penguina</li>
+                                    <li>Le Semeur de peur</li>
+                                    <li>Une vie de milliardaire</li>
+                                    <li>La Tête du démon</li>
+                                    <li>Chemin a double tranchant</li>
+                                    <li>Un après-midi de cochon</li>
+                                    <li>Misère, misère !</li>
+                                    <li>Le Pouvoir change de main</li>
+                                    <li>Une leçon de cuisine</li>
+                                    <li>Boum badaboum</li>
+                                    <li>La reine prend le cavalier</li>
+                                    <li>Plante vénéneuse</li>
+                                    <li>Tueuse de charme</li>
+                                    <li>Parfum envoûtant</li>
+                                    <li>Complètement givré</li>
+                                    <li>Sauvez-vous les uns les autres</li>
+                                    <li>Un brunch de folie</li>
+                                    <li>Que la fête commence</li>
+                                    <li>Jusqu'à ce que la mort nous rassemble</li>
+                                    <li>Cadavre exquis</li>
+                                    <li>Mauvaise journée</li>
+                                    <li>De cendres et de flammes</li>
+                                </ol>
+                            </div>
+
+                            <div class="menu_d" id="menu5" onclick="afficheMenu(this)">
+                                <div class="t_saison"><a href="#">Saison 5</a></div>
+                            </div>
+                            <div id="sousmenu5" style="display:none">
+                                <ol class="episode_name">
+                                    <li>L'année zéro</li>
+                                    <li>Dans la zone noire</li>
+                                    <li>Notre pingouin, ce héros</li>
+                                    <li>Quand tout s'effondre</li>
+                                    <li>Dans la tête de Nygma</li>
+                                    <li>Sauts de puce</li>
+                                    <li>Menace chimique</li>
+                                    <li>Ennemis pour la vie</li>
+                                    <li>L'heure des vérités</li>
+                                    <li>Mon nom est Bane</li>
+                                    <li>A la gloire de Gotham</li>
+                                    <li>Là où tout commance</li>
+                                </ol>
+                            </div>
+
+                            
+
+                            
+                        </div><!-- bouton saison -->
+                    </div><!-- ensemble menu -->
+
+                </div><!-- block 2 part. 1-->
+                <div class="block2_p2">
+                    <div class="cast">
+                        <h3 class="t_cast">Cast :</h3>
+                        <div class="photo_cast">
+                            <table>
+                                <div class="cast_info">
+                                    <div class="unite_photo_info"><a href="image/cast/gotham_c_1.jpg"><img src="image/Cast/gotham_c_1.jpg"></a><h5>Ben McKenzie <br/><span class="cast_as">James Gordon</span></h5></div>
+                                    <div class="unite_photo_info"><a href="image/cast/gotham_c_2.jpg"><img src="image/Cast/gotham_c_2.jpg"></a><h5>Sean Pertwee <br/><span class="cast_as">Alfred Pennyworth</span></h5></div>
+                                    <div class="unite_photo_info"><a href="image/cast/gotham_c_3.jpg"><img src="image/Cast/gotham_c_3.jpg"></a><h5>Erin Richards <br/><span class="cast_as">Barbara Kean</span></h5></div>
+                                    <div class="unite_photo_info"><a href="image/cast/gotham_c_4.jpg"><img src="image/Cast/gotham_c_4.jpg"></a><h5>David Mazouz <br/><span class="cast_as">Bruce Wayne</span></h5></div>
+                                    <div class="unite_photo_info"><a href="image/cast/gotham_c_5.jpg"><img src="image/Cast/gotham_c_5.jpg"></a><h5>Donal Logue <br/><span class="cast_as">Harvey Bullock</span></h5></div>
+                                    <div class="unite_photo_info"><a href="image/cast/gotham_c_6.jpg"><img src="image/Cast/gotham_c_6.jpg"></a><h5>Camren Bicondova <br/><span class="cast_as">Selina Kyle</span></h5></div>
+                                    <div class="unite_photo_info"><a href="image/cast/gotham_c_7.jpg"><img src="image/Cast/gotham_c_7.jpg"></a><h5>Cory Michael Smith <br/><span class="cast_as">Edward Nygma</span></h5></div>
+                                    <div class="unite_photo_info"><a href="image/cast/gotham_c_8.jpg"><img src="image/Cast/gotham_c_8.jpg"></a><h5>Robin Lord Taylor <br/><span class="cast_as">Oswald Cobblepot</span></h5></div
+
+                                   
+                                </div>
+                            </table>
+                        </div>
+                    </div><!-- cast -->
+                </div><!-- bloc 2 p2 -->
+            </div><!-- bloc 2-->                     
+
+            <footer>
+                
+            </footer>
+
+            <script src="Js/app.js" charset="utf-8"></script>
+        </body>
+    </html>

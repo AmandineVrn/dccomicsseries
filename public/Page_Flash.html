@@ -1,0 +1,359 @@
+<!doctype html>
+    <html>
+        <head>
+            <title>The Flash</title>
+            <link rel="stylesheet" href="css/header.css">
+            <link rel="stylesheet" href="css/normalize.css">
+            <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+            <meta charset="utf-8">
+            <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous"></script>
+        </head>
+        <body>
+            <div class="contenu_html">
+                <header>
+                    <nav class="menu" role="navigation">
+
+                        <div class="inner">
+                            <div class="m_left">
+                                <a href=Accueil.html><h1 class="logo">DC Comics Series</h1></a>
+                            </div>
+        
+                            <div class="m_right">
+                                <a href="Accueil.html" class="m_link"><i class="fas fa-home"></i> Accueil</a>
+                                <!-- <a href="#" class="m_link"><i class="far fa-newspaper"></i> Articles</a> -->
+                                <a href="#" class="m_link"><i class="fas fa-envelope"></i> Contacts</a>
+                                <a href="#" class="m_link"><i class="fas fa-question-circle"></i> A proppos</a>
+                            </div>
+                            <div class="m_nav_toggle">
+                                <span class="m_toggle_icon"></span>
+                            </div>
+
+                        </div>
+
+                    </nav>
+                </header>
+
+                <div class="titre"> <!-- bloc 1-->
+                    
+                    <div class="poster">
+                        <a href="image/flash_poster.jpg"><img src="image/flash_poster-mini.jpg" alt="Poster de la série The Flash"></a>
+                    </div><!-- poster -->
+                    <div class="infos"> 
+                        <div class="t_serie">
+                            <h3>The Flash</h3>
+                        </div>
+                        <div class="l_ext"><!-- liens externes -->
+                            <a href="https://www.imdb.com/title/tt3107288/" target=_blank><img class="svg1" src="image/l_ext/imdb.svg" alt="Logo imdb (Internet Movie Database)"></a>
+                            <a href="https://www.themoviedb.org/tv/60735-the-flash" target=_blank><img class="svg1" src="image/l_ext/tmdb.svg" alt="Logo TMDB (The Movie Database)"></a>
+                            <a href="https://theposterdb.com/posters/3825" target=_blank><img class="svg2" src="image/l_ext/tpdb.svg" alt="Logo TPDB (The Poster Database)"></a>
+                            <!-- <a href="#"><img class="svg3" src="image/l_ext/tvtime.svg"></a> -->
+                        </div> <!-- liens externe-->
+
+                        <div class="synopsis">
+                            <h3>Synopsis : </h3><br/>
+                            <p>Jeune expert de la police scientifique de Central City, Barry Allen se retrouve doté d'une vitesse extraordinaire après avoir été frappé par la foudre. Sous le costume de Flash, il utilise ses nouveaux pouvoirs pour combattre le crime.</p>
+                        </div>
+                    </div><!-- infos de la série-->
+                </div><!-- titre bloc 1-->
+
+                <div class="block_2">
+                    <div class="block2_p1">
+                        <div class="trailer">
+                            <h3 class="t_trailer">Bande Annonce VF :</h3>
+                            <iframe width="513" height="262.5" src="https://www.youtube.com/embed/8HB40lEa_j8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                        
+                        <div class="ensemble_menu"><!-- titre + bouton episode saison-->
+                            <h3 class="t_m_episode">Liste des épisodes :</h3>
+                            <div class="b_saison">
+                                <div class="menu_d" id="menu1" onclick="afficheMenu(this)">
+                                    <div class="t_saison"><a href="#">Saison 1</a></div>
+                                </div>
+                                <div id="sousmenu1" style="display:none">
+                                    <ol class="episode_name">
+                                        <li>Frappé par la foudre</li>
+                                        <li>L'homme le plus rapide du monde</li>
+                                        <li>Brume toxique</li>
+                                        <li>Gelé sur place</li>
+                                        <li>La bombe humaine</li>
+                                        <li>Battre le fer</li>
+                                        <li>Blackout</li>
+                                        <li>Flash contre Arrow</li>
+                                        <li>Le rayon jaune</li>
+                                        <li>Captain Glaçons</li>
+                                        <li>La revanche du disciple</li>
+                                        <li>La téléporteuse</li>
+                                        <li>Le flambeau humain</li>
+                                        <li>Relation fusionnelle</li>
+                                        <li>Hors du temps</li>
+                                        <li>Si le futur m'était conté</li>
+                                        <li>Trickster</li>
+                                        <li>La piqûre de la trahison</li>
+                                        <li>Monsieur tout le monde</li>
+                                        <li>La chambre forte du temps</li>
+                                        <li>Grodd le gorille</li>
+                                        <li>Alliances inattendues</li>
+                                        <li>Un dilemme cornélien</li>
+                                        </ol>
+                                </div>
+
+                                <div class="menu_d" id="menu2" onclick="afficheMenu(this)">
+                                    <div class="t_saison"><a href="#">Saison 2</a></div>
+                                </div>
+                                <div id="sousmenu2" style="display:none">
+                                    <ol class="episode_name">
+                                        <li>L'homme qui a sauvé Central City</li>
+                                        <li>L'autre monde</li>
+                                        <li>Pression familiale</li>
+                                        <li>L'autre candidat</li>
+                                        <li>Un retour inattendu</li>
+                                        <li>Le face-à-face</li>
+                                        <li>Gare au gorille</li>
+                                        <li>Les légendes d'aujourd'hui (1)</li>
+                                        <li>Encore plus fort</li>
+                                        <li>Course au ralenti</li>
+                                        <li>Un seul et unique</li>
+                                        <li>Les pleins pouvoirs</li>
+                                        <li>Bienvenue sur Terre-2</li>
+                                        <li>La dernière brèche</li>
+                                        <li>King Shark</li>
+                                        <li>L'éclair bleu</li>
+                                        <li>Flash-back</li>
+                                        <li>L'affrontement</li>
+                                        <li>Un Héros ordinaire</li>
+                                        <li>Rupture</li>
+                                        <li>La vitesse pure</li>
+                                        <li>The Chronicles Of Cisco: Entry 0419 (4)</li>
+                                        <li>Invincible</li>
+                                        <li>Le duel</li>
+                                        </ol>
+                                </div>
+
+                                <div class="menu_d" id="menu3" onclick="afficheMenu(this)">
+                                    <div class="t_saison"><a href="#">Saison 3</a></div>
+                                </div>
+                                <div id="sousmenu3" style="display:none">
+                                    <ol class="episode_name">
+                                        <li>Réalité perturbée</li>
+                                        <li>Un choix paradoxal</li>
+                                        <li>L'étoffe des super-héros</li>
+                                        <li>Le Maître des miroirs</li>
+                                        <li>Terreur invisible</li>
+                                        <li>L'ombre du mal</li>
+                                        <li>Transformation</li>
+                                        <li>Invasion! (2)</li>
+                                        <li>La boîte de Pandore</li>
+                                        <li>Retour vers le futur</li>
+                                        <li>Les Aventures de H. R. Wells</li>
+                                        <li>Réduit en cendres</li>
+                                        <li>La planète des singes</li>
+                                        <li>L'Armée des gorilles</li>
+                                        <li>La colère de Savitar</li>
+                                        <li>Leçons du passé</li>
+                                        <li>Chantons sous la nuit (2)</li>
+                                        <li>Abra Kadabra</li>
+                                        <li>Prisonnier du futur</li>
+                                        <li>Je sais qui tu es</li>
+                                        <li>Relation de cause à effet</li>
+                                        <li>Rendez-vous avec le destin</li>
+                                        <li>Ligne de finition</li>
+                                        </ol>
+                                </div>
+
+                                <div class="menu_d" id="menu4" onclick="afficheMenu(this)">
+                                    <div class="t_saison"><a href="#">Saison 4</a></div>
+                                </div>
+                                <div id="sousmenu4" style="display:none">
+                                    <ol class="episode_name">
+                                        <li>Cours Barry, cours !</li>
+                                        <li>La Confusion des sentiments</li>
+                                        <li>La Faute à pas de chance</li>
+                                        <li>Une journée sans fin</li>
+                                        <li>Virée entre filles</li>
+                                        <li>Quand Harry rencontre Harry</li>
+                                        <li>Le Pouvoir de la pensée</li>
+                                        <li>Crise sur Terre-X, partie 3</li>
+                                        <li>Rien ne sert de courir</li>
+                                        <li>Justice à deux vitesses</li>
+                                        <li>L'Homme élastique</li>
+                                        <li>Chéri, j'ai rétréci l'équipe Flash</li>
+                                        <li>Le vrai visage</li>
+                                        <li>Sujet 9</li>
+                                        <li>Entrer dans le Flashtime</li>
+                                        <li>Cours, Iris, Cours</li>
+                                        <li>Une plaisanterie de trop</li>
+                                        <li>Se perdre</li>
+                                        <li>La Fureur des puissants</li>
+                                        <li>Donc elle est</li>
+                                        <li>Harry et les Harrison</li>
+                                        <li>Penser rapidement</li>
+                                        <li>Nous sommes le Flash</li>
+                                        </ol>
+                                </div>
+
+                                <div class="menu_d" id="menu5" onclick="afficheMenu(this)">
+                                    <div class="t_saison"><a href="#">Saison 5 </a></div>
+                                </div>
+                                <div id="sousmenu5" style="display:none">
+                                    <ol class="episode_name">
+                                        <li>L'Héritage de Flash</li>
+                                        <li>Bloc</li>
+                                        <li>Élémentaire, mon cher Barry</li>
+                                        <li>Flash info</li>
+                                        <li>Le Clown masqué</li>
+                                        <li>Icicle</li>
+                                        <li>Sale Temps pour Central City</li>
+                                        <li>Aujourd'hui est l'élève d'hier</li>
+                                        <li>Les Autres Mondes, première heure (1)</li>
+                                        <li>Flash and Furious</li>
+                                        <li>Colère noire</li>
+                                        <li>Piège cérébral</li>
+                                        <li>La fin justifie les moyens</li>
+                                        <li>Déjà-vu</li>
+                                        <li>Combat de titans</li>
+                                        <li>La Panacée</li>
+                                        <li>Bombe temporelle</li>
+                                        <li>L'Histoire de Nora</li>
+                                        <li>Une famille givrée</li>
+                                        <li>Passée à l'ennemi</li>
+                                        <li>Extermination</li>
+                                        <li>La Dague de Cicada</li>
+                                        </ol>
+                                </div>
+
+                                <div class="menu_d" id="menu6" onclick="afficheMenu(this)">
+                                    <div class="t_saison"><a href="#">Saison 6</a></div>
+                                </div>
+                                <div id="sousmenu6" style="display:none">
+                                    <ol class="episode_name">
+                                        <li>Le trou noir</li>
+                                        <li>Rien n'est écrit</li>
+                                        <li>Crise existentielle</li>
+                                        <li>Le serment d'hypocrite</li>
+                                        <li>Psychose</li>
+                                        <li>Bons baisers de Midway City</li>
+                                        <li>Les doutes de Barry Allen partie 1</li>
+                                        <li>Les doutes de Barry Allen partie 2</li>
+                                        <li>Crisis on Infinite Earths : Moment critique (3)</li>
+                                        <li>Marathon</li>
+                                        <li>Drôle de Saint-Valentin</li>
+                                        <li>Mais qui est Sue Dearbon</li>
+                                        <li>Un allié inattendu</li>
+                                        <li>La fin de la vitesse pure</li>
+                                        <li>Vaincre ses démons</li>
+                                        <li>Au revoir, à jamais</li>
+                                        <li>Délivrée</li>
+                                        <li>En payer le prix</li>
+                                        <li>La réussite est assurée</li>
+                                        </ol>
+                                </div>
+
+                                <div class="menu_d" id="menu7" onclick="afficheMenu(this)">
+                                    <div class="t_saison"><a href="#">Saison 7</a></div>
+                                </div>
+                                <div id="sousmenu7" style="display:none">
+                                    <ol class="episode_name">
+                                        <li>Le sacrifice des Wells</li>
+                                        <li>Cerveau supersonique</li>
+                                        <li>L'invasion Des Profanateurs</li>
+                                        <li>Abra Kadabra Est De Retour</li>
+                                        <li>Fear Me</li>
+                                        <li>The One With The Nineties</li>
+                                        <li>Growing Pains</li>
+                                        <li>The People vs. Killer Frost</li>
+                                        <li>Timeless</li>
+                                        <li>Family Matters (1)</li>
+                                        <li>Family Matters (2)</li>
+                                        <li>Good-Bye Vibrations</li>
+                                        <li>Masquerade</li>
+                                        <li>Rayo de Luz</li>
+                                        <li>Enemy at the Gates</li>
+                                        <li>P.O.W.</li>
+                                        <li>Heart of the Matter (1)</li>
+                                        <li>Heart of the Matter (2)</li>
+                                        </ol>
+                                </div>
+
+                                <div class="menu_d" id="menu8" onclick="afficheMenu(this)">
+                                    <div class="t_saison"><a href="#">Saison 8</a></div>
+                                </div>
+                                <div id="sousmenu8" style="display:none">
+                                    <ol>
+                                        <li>Armageddon (1)</li>
+                                        <li>Armageddon (2)</li>
+                                        <li>Armageddon (3)</li>
+                                        <li>Armageddon (4)</li>
+                                        <li>Armageddon (5)</li>
+                                        <li>TBA</li>
+                                        </ol>
+                                </div>
+
+                                
+                            </div><!-- bouton saison -->
+                        </div><!-- ensemble menu -->
+
+                    </div><!-- block 2 part. 1-->
+                    <div class="block2_p2">
+                        <div class="cast">
+                            <h3 class="t_cast">Cast :</h3>
+                            <div class="photo_cast">
+                                <table>
+                                    <div class="cast_info">
+                                        <div class="unite_photo_info"><a href="image/cast/flash_c_1.jpg"><img src="image/Cast/flash_c_1.jpg"></a><h5>Grant Gustin <br/><span class="cast_as">Barry Allen</span></h5></div>
+                                        <div class="unite_photo_info"><a href="image/cast/flash_c_05.jpg"><img src="image/Cast/flash_c_5.jpg"></a><h5>Candice Patton <br/><span class="cast_as">Iris West</span></h5></div>
+                                        <div class="unite_photo_info"><a href="image/cast/flash_c_3.jpg"><img src="image/Cast/flash_c_3.jpg"></a><h5>Danielle Panabaker <br/><span class="cast_as">Caitlin Snow</span></h5></div>
+                                        <div class="unite_photo_info"><a href="image/cast/flash_c_4.jpg"><img src="image/Cast/flash_c_4.jpg"></a><h5>Carlos Valdes <br/><span class="cast_as">Cisco Ramon</span></h5></div>
+                                        <div class="unite_photo_info"><a href="image/cast/flash_c_2.jpg"><img src="image/Cast/flash_c_2.jpg"></a><h5>Jesse L. Martin <br/><span class="cast_as">Joe West</span></h5></div>
+                                        <div class="unite_photo_info"><a href="image/cast/flash_c_6.jpg"><img src="image/Cast/flash_c_6.jpg"></a><h5>Tom Cavanah <br/><span class="cast_as">Harrison Wells</span></h5></div>
+                                        <div class="unite_photo_info"><a href="image/cast/flash_c_7.jpg"><img src="image/Cast/flash_c_7.jpg"></a><h5>Rick Cosnett <br/><span class="cast_as">Eddie Thawne</span></h5></div>
+                                        <div class="unite_photo_info"><a href="image/cast/flash_c_12.jpg"><img src="image/Cast/flash_c_12.jpg"></a><h5>Danielle Nicolet <br/><span class="cast_as">Cecile Horton</span></h5></div>
+                                        <div class="unite_photo_info"><a href="image/cast/flash_c_17.jpg"><img src="image/Cast/flash_c_17.jpg"></a><h5>Keiynan Lonsdale <br/><span class="cast_as">Wally West</span></h5></div>
+                                        <div class="unite_photo_info"><a href="image/cast/flash_c_11.jpg"><img src="image/Cast/flash_c_11.jpg"></a><h5>Hartley Sawyer <br/><span class="cast_as">Ralph Dibny</span></h5></div>
+                                        <div class="unite_photo_info"><a href="image/cast/flash_c_8.jpg"><img src="image/Cast/flash_c_8.jpg"></a><h5>Kayla Compton <br/><span class="cast_as">Alegra Garcia</span></h5></div>
+                                        <div class="unite_photo_info"><a href="image/cast/flash_c_15.jpg"><img src="image/Cast/flash_c_15.jpg"></a><h5>Jessica Parker Kennedy <br/><span class="cast_as">Nora West-Allen</span></h5></div>
+                                        <div class="unite_photo_info"><a href="image/cast/flash_c_9.jpg"><img src="image/Cast/flash_c_9.jpg"></a><h5>Brandon McKnight <br/><span class="cast_as">Chester P. Runk</span></h5></div>
+                                        <div class="unite_photo_info"><a href="image/cast/flash_c_10.jpg"><img src="image/Cast/flash_c_10.jpg"></a><h5>Tom Felton <br/><span class="cast_as">Julian Albert</span></h5></div>
+                                        <div class="unite_photo_info"><a href="image/cast/flash_c_13.jpg"><img src="image/Cast/flash_c_13.jpg"></a><h5>Kim Engelbrecht <br/><span class="cast_as">Marlize DeVoe</span></h5></div>
+                                        <div class="unite_photo_info"><a href="image/cast/flash_c_16.jpg"><img src="image/Cast/flash_c_16.jpg"></a><h5>Neil Sandilands <br/><span class="cast_as">Clifford DeVoe</span></h5></div>
+                                        <div class="unite_photo_info"><a href="image/cast/flash_c_14.jpg"><img src="image/Cast/flash_c_14.jpg"></a><h5>Violet Beane <br/><span class="cast_as">Jesse Wells</span></h5></div>
+                                        <div class="unite_photo_info"><a href="image/cast/flash_c_18.jpg"><img src="image/Cast/flash_c_18.jpg"></a><h5>Teddy Sears <br/><span class="cast_as">Hunter Zolomon / Zoom</span></h5></div>
+
+                                    </div>
+                                </table>
+                            </div>
+                        </div><!-- cast -->
+                    </div><!-- bloc 2 p2 -->
+                </div><!-- bloc 2-->
+
+                        
+
+                <footer>
+                   <!--  <div class="contenu_footer">
+                        <div class="bloc credits">
+                            <h4>Crédits :</h4>
+                            <ul class="l_credits">
+                                <li>Posters Arrow jusqu'à Harley Quinn : <a href="https://theposterdb.com/user/ishalioh" target="_blank">Ishalioh</a></br></li>
+                                <li>Poster Young Justice : <a href="https://theposterdb.com/user/ceefight" target="_blank">CeeFight</a></br></li>
+                                <li>Poster Powerless : <a href="https://theposterdb.com/user/darth3pio" target="_blank">Darth3pio</a><br/></li>
+                                <li>Poster Gotham : <a href="https://theposterdb.com/user/leburn98" target="_blank">Leburn98</a><br/></li>
+                            </ul>   
+                        </div>
+                        <div class="bloc navigation">
+                            <h4>Navigation :</h4>
+                            <ul>
+                                <li><a href="Accueil.html">Accueil</a></li>
+                                <li><a href="Contact.html">Contacts</a></li>
+                                <li><a href="a_propos.html">A Propos</a></li>
+                            </ul>
+
+                        </div>    
+                    </div> -->
+                    
+                    
+                </footer>
+
+                <script src="Js/app.js" charset="utf-8"></script>
+            </div>
+        </body>
+    </html>

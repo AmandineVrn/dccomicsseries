@@ -1,0 +1,152 @@
+<!doctype html>
+    <html>
+        <head>
+            <title>Stargirl</title>
+            <link rel="stylesheet" href="css/header.css">
+            <link rel="stylesheet" href="css/normalize.css">
+            <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+            <meta charset="utf-8">
+            <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous"></script>
+        </head>
+        <body>
+            <header>
+                <nav class="menu" role="navigation">
+
+                    <div class="inner">
+                        <div class="m_left">
+                            <a href=Accueil.html><h1 class="logo">DC Comics Series</h1></a>
+                        </div>
+    
+                        <div class="m_right">
+                            <a href="Accueil.html" class="m_link"><i class="fas fa-home"></i> Accueil</a>
+                            <!-- <a href="#" class="m_link"><i class="far fa-newspaper"></i> Articles</a> -->
+                            <a href="#" class="m_link"><i class="fas fa-envelope"></i> Contacts</a>
+                            <a href="#" class="m_link"><i class="fas fa-question-circle"></i> A proppos</a>
+                        </div>
+                        <div class="m_nav_toggle">
+                            <span class="m_toggle_icon"></span>
+                        </div>
+
+                    </div>
+
+                </nav>
+            </header>
+
+            <div class="titre">
+                
+                <div class="poster">
+                    <a href="image/stragirl_poster.jpg"><img src="image/stargirl_poster-mini.jpg" alt="Poster de la série Stargirl"></a>
+                </div>
+                <div class="infos">
+                    <div class="t_serie">
+                        <h3>Stargirl</h3>
+                    </div>
+
+                    <div class="l_ext">
+                        <a href="https://www.imdb.com/title/tt8722888" target=_blank><img class="svg1" src="image/l_ext/imdb.svg" alt="Logo imdb (Internet Movie Database)"></a>
+                        <a href="https://www.themoviedb.org/tv/80986-stargirl" target=_blank><img class="svg1" src="image/l_ext/tmdb.svg" alt="Logo TMDB (The Movie Database)"></a>
+                        <a href="https://theposterdb.com/posters/79073" target=_blank><img class="svg2" src="image/l_ext/tpdb.svg" alt="Logo TPDB (The Poster Database)"></a>
+                        <!-- <a href="#"><img class="svg3" src="image/l_ext/tvtime.svg"></a> -->
+                    </div> 
+
+                    <div class="synopsis">
+                        <h3>Synopsis : </h3>
+                        <p>Stargirl suit l’histoire de Courtney Whitmore, qui est une fille intelligente, athlétique et surtout gentille. La vie apparemment parfaite de cette adolescente du lycée connaît un sérieux contretemps lorsque sa mère se marie et que sa nouvelle famille déménage de Los Angeles, en Californie, à Blue Valley, au Nebraska. Ayant du mal à s’adapter à une nouvelle école, à se faire de nouveaux amis et à faire face à une nouvelle famille recomposée, Courtney découvre que son beau-père a un secret : il était l’acolyte d’un super-héros. “Empruntant le bâton cosmique du héros disparu depuis longtemps, Courtney devient l’inspiration improbable d’une toute nouvelle génération de super-héros.</p>
+                    </div>
+                </div>
+            </div>
+
+           <div class="block_2">
+                <div class="block2_p1">
+                    <div class="trailer">
+                        <h3 class="t_trailer">Bande Annonce VOSTFR :</h3>
+                        <iframe width="513" height="262.5" src="https://www.youtube.com/embed/L8ota-n7xhU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                    
+                    <div class="ensemble_menu"><!-- titre + bouton episode saison-->
+                        <h3 class="t_m_episode">Liste des épisodes :</h3>
+                        <div class="b_saison">
+                            <div class="menu_d" id="menu1" onclick="afficheMenu(this)">
+                                <div class="t_saison"><a href="#">Saison 1</a></div>
+                            </div>
+                            <div id="sousmenu1" style="display:none">
+                                <ol class="episode_name">
+                                    <li>Nouveau départ</li>
+                                    <li>S.T.R.I.P.E.</li>
+                                    <li>Icicle</li>
+                                    <li>Wildcat</li>
+                                    <li>Hourman et Docteur Mid-Nite</li>
+                                    <li>Justice Society</li>
+                                    <li>Le duel (1)</li>
+                                    <li>Le duel (2)</li>
+                                    <li>Brainwave</li>
+                                    <li>Brainwave Jr.</li>
+                                    <li>Shining Knight</li>
+                                    <li>Stargirl et S.T.R.I.P.E (1)</li>
+                                    <li>Stargirl et S.T.R.I.P.E, Partie 2</li>
+                                </ol>
+                            </div>
+
+                            <div class="menu_d" id="menu2" onclick="afficheMenu(this)">
+                                <div class="t_saison"><a href="#">Saison 2</a></div>
+                            </div>
+                            <div id="sousmenu2" style="display:none">
+                                <ol class="episode_name">
+                                    <li>Vacances d'été : Chapitre 1</li>
+                                    <li>Vacances d'été : Chapitre 2</li>
+                                    <li>Vacances d'été : Chapitre 3</li>
+                                    <li>Vacances d'été : Chapitre 4</li>
+                                    <li>Vacances d'été : Chapitre 5</li>
+                                    <li>Vacances d'été : Chapitre 6</li>
+                                    <li>Vacances d'été : Chapitre 7</li>
+                                    <li>Vacances d'été : Chapitre 8</li>
+                                    <li>Vacances d'été : Chapitre 9</li>
+                                    <li>Vacances d'été : Chapitre 10</li>
+                                    <li>Vacances d'été : Chapitre 11</li>
+                                    <li>Vacances d'été : Chapitre 12</li>
+                                    <li>Vacances d'été : Chapitre 13</li>
+                                </ol>
+                            </div>
+
+                            
+
+                            
+                        </div><!-- bouton saison -->
+                    </div><!-- ensemble menu -->
+
+                </div><!-- block 2 part. 1-->
+                <div class="block2_p2">
+                    <div class="cast">
+                        <h3 class="t_cast">Cast :</h3>
+                        <div class="photo_cast">
+                            <table>
+                                <div class="cast_info">
+                                    <div class="unite_photo_info"><a href="image/cast/stargirl_c_10.jpg"><img src="image/Cast/stargirl_c_10.jpg"></a><h5>Brec Bassinger <br/><span class="cast_as">Courtney Whitmore</span></h5></div>
+                                    <div class="unite_photo_info"><a href="image/cast/stargirl_c_11.jpg"><img src="image/Cast/stargirl_c_11.jpg"></a><h5>Yvette Monreal <br/><span class="cast_as">Yolanda Montez</span></h5></div>
+                                    <div class="unite_photo_info"><a href="image/cast/stargirl_c_12.jpg"><img src="image/Cast/stargirl_c_12.jpg"></a><h5>Anjelika Washington <br/><span class="cast_as">Beth Chapel</span></h5></div>
+                                    <div class="unite_photo_info"><a href="image/cast/stargirl_c_2.jpg"><img src="image/Cast/stargirl_c_2.jpg"></a><h5>Cameron Gellman <br/><span class="cast_as">Rick Tyler</span></h5></div>
+                                    <div class="unite_photo_info"><a href="image/cast/stargirl_c_1.jpg"><img src="image/Cast/stargirl_c_1.jpg"></a><h5>Luke Wilson <br/><span class="cast_as">Pat Dugan</span></h5></div>
+                                    <div class="unite_photo_info"><a href="image/cast/stargirl_c_5.jpg"><img src="image/Cast/stargirl_c_5.jpg"></a><h5>Amy Smart <br/><span class="cast_as">Barbara Whitmore</span></h5></div>
+                                    <div class="unite_photo_info"><a href="image/cast/stargirl_c_9.jpg"><img src="image/Cast/stargirl_c_9.jpg"></a><h5>Trae Romano <br/><span class="cast_as">Mike Dugan</span></h5></div>
+                                    <div class="unite_photo_info"><a href="image/cast/stargirl_c_3.jpg"><img src="image/Cast/stargirl_c_3.jpg"></a><h5>Hunter Sansone <br/><span class="cast_as">Cameron Mahkent</span></h5></div>
+                                    <div class="unite_photo_info"><a href="image/cast/stargirl_c_7.jpg"><img src="image/Cast/stargirl_c_7.jpg"></a><h5>Meg DeLacy <br/><span class="cast_as">Cindy Burnman</span></h5></div>
+                                    <div class="unite_photo_info"><a href="image/cast/stargirl_c_6.jpg"><img src="image/Cast/stargirl_c_6.jpg"></a><h5>Christopher James Baker <br/><span class="cast_as">Henry king    </span></h5></div>
+                                    <div class="unite_photo_info"><a href="image/cast/stargirl_c_4.jpg"><img src="image/Cast/stargirl_c_4.jpg"></a><h5>Jake Austin Walker <br/><span class="cast_as">Henry King Jr.</span></h5></div>
+                                    <div class="unite_photo_info"><a href="image/cast/stargirl_c_8.jpg"><img src="image/Cast/stargirl_c_8.jpg"></a><h5>Neil Jackson <br/><span class="cast_as">Jordan Mahkent</span></h5></div>
+                                    <div class="unite_photo_info"><a href="image/cast/stargirl_c_13.jpg"><img src="image/Cast/stargirl_c_13.jpg"></a><h5>Nick Tarabay <br/><span class="cast_as">Eclipso</span></h5></div>
+
+                                </div>
+                            </table>
+                        </div>
+                    </div><!-- cast -->
+                </div><!-- bloc 2 p2 -->
+            </div><!-- bloc 2-->           
+
+            <footer>
+                
+            </footer>
+
+            <script src="Js/app.js" charset="utf-8"></script>
+        </body>
+    </html>

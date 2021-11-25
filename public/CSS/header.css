@@ -1,0 +1,116 @@
+.menu {
+    background:#0282f9;
+    width:100%;
+    height:66px;
+    line-height: 66px;
+    border-bottom-left-radius: 10px;
+    /*border-bottom-right-radius: 10px; */
+    
+} 
+
+.m_left {
+    float:left;
+}
+
+.m_right {
+    float:right;
+}
+
+.logo {
+    margin:0;
+    padding:0;
+    color: hsl(236, 18%, 7%);
+    text-transform: uppercase;
+    font-family: "Lato";
+    font-weight:900; 
+    font-size:35px;
+    letter-spacing:1px;
+}
+
+.m_link {
+    text-decoration: none;
+    color:#151515;
+    text-transform:uppercase;
+    font-weight:700;
+    padding: 0;
+    margin: 0 15px;
+    transition:0.3s ease-in-out;
+    border-bottom: 2px solid transparent;
+    padding-bottom:3px;
+}
+
+.m_link:hover {
+    
+    border-color:#151515;
+    text-decoration: none;
+}
+
+
+
+.m_link i{
+    margin-right:5px;
+}
+
+.m_nav_toggle{
+    width:40px;
+    height:66px;
+    display:none;
+    align-items: center;
+    float: right;
+    cursor: pointer;
+}
+
+span.m_toggle_icon, span.m_toggle_icon:before, span.m_toggle_icon:after{
+    content:"";
+    display:block;
+    width:100%;
+    height: 2px;
+    background: #fff;
+    position: relative;
+    transition: all 0.3s ease-in-out;
+}
+
+span.m_toggle_icon:before{top: 12px}
+span.m_toggle_icon:after{top: -14px}
+
+.m_right.is-open{
+    transform: translateX(0);
+}
+
+.m_nav_toggle.is-open span.m_toggle_icon{
+    background: transparent;
+}
+
+.m_nav_toggle.is-open span.m_toggle_icon:before,.m_nav_toggle.is-open span.m_toggle_icon:after{
+    transform-origin: center;
+    transform: rotate(40deg);
+    top:0;
+}
+
+.m_nav_toggle.is-open span.m_toggle_icon::before{
+    transform: rotate(-46deg);
+}
+
+
+@media only screen and (max-width:1000px){
+    .m_right{
+        position:absolute;
+        top: 66px;left:0;
+        width:200px;
+        height:100%;
+        background: #0282f9;
+        transform: translateX(-100%);
+        transition: all 0.3s ease-in-out;
+    }
+
+    .m_link{
+        display:block; 
+        text-align: center;
+        padding: 0;margin:0 20px;
+        height:55px;
+    }
+
+    .m_nav_toggle{
+        display:flex;
+    }
+}
