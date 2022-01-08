@@ -89,13 +89,13 @@ h3{
     .l1{
         margin-left: 6%;
         margin-right: 6%;
-        border:1px solid green;
+        border:1px solid transparent;
         
     }
 
     .l1 a img{
         max-width:400px ;
-        border: 1px solid blue;
+        border: 1px solid transparent;
 
     }
 }
