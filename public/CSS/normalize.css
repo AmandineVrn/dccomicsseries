@@ -20,13 +20,16 @@ html, body {
     
 }
 
-
+header{
+    margin-left:-21.5%;
+}
 
 
 
 .contenu_html{
     flex: 1 0 auto;
-    
+    margin-right: 15%;
+    margin-left:15%;
 }
 
 footer{
