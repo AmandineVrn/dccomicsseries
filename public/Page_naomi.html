@@ -10,106 +10,108 @@
             <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous"></script>
         </head>
         <body>
-            <header>
-                <nav class="menu" role="navigation">
+            <div class="contenu_html"><!-- contenu de tous le site sauf header -->
+                <header>
+                    <nav class="menu" role="navigation">
 
-                    <div class="inner">
-                        <div class="m_left">
-                            <a href=../index.html><h1 class="logo">DC Comics Series</h1></a>
+                        <div class="inner">
+                            <div class="m_left">
+                                <a href=../index.html><h1 class="logo">DC Comics Series</h1></a>
+                            </div>
+        
+                            <div class="m_right">
+                                <a href="../index.html" class="m_link"><i class="fas fa-home"></i> Accueil</a>
+                                <!-- <a href="#" class="m_link"><i class="far fa-newspaper"></i> Articles</a> -->
+                                <a href="contact.html" class="m_link"><i class="fas fa-envelope"></i> Contacts</a>
+                                <a href="a_propos.html" class="m_link"><i class="fas fa-question-circle"></i> A proppos</a>
+                            </div>
+                            <div class="m_nav_toggle">
+                                <span class="m_toggle_icon"></span>
+                            </div>
+
                         </div>
-    
-                        <div class="m_right">
-                            <a href="../index.html" class="m_link"><i class="fas fa-home"></i> Accueil</a>
-                            <!-- <a href="#" class="m_link"><i class="far fa-newspaper"></i> Articles</a> -->
-                            <a href="contact.html" class="m_link"><i class="fas fa-envelope"></i> Contacts</a>
-                            <a href="a_propos.html" class="m_link"><i class="fas fa-question-circle"></i> A proppos</a>
-                        </div>
-                        <div class="m_nav_toggle">
-                            <span class="m_toggle_icon"></span>
-                        </div>
 
-                    </div>
+                    </nav>
+                </header>
 
-                </nav>
-            </header>
-
-            <div class="titre">
-                
-                <div class="poster">
-                    <a href="image/naomi_poster.jpg"><img src="image/naomi_poster-mini.jpg" alt="Poster de la série Naomi"></a>
-                </div>
-                <div class="infos">
-                    <div class="t_serie">
-                        <h3>Naomi</h3>
-                    </div>
-
-                    <div class="l_ext">
-                        <a href="https://www.imdb.com/title/tt13624900" target=_blank><img class="svg1" src="image/l_ext/imdb.svg" alt="Logo imdb (Internet Movie Database)"></a>
-                        <a href="https://www.themoviedb.org/tv/125474" target=_blank><img class="svg1" src="image/l_ext/tmdb.svg" alt="Logo TMDB (The Movie Database)"></a>
-                        <a href="https://theposterdb.com/posters/1274566" target=_blank><img class="svg2" src="image/l_ext/tpdb.svg" alt="Logo TPDB (The Poster Database)"></a>
-                        <!-- <a href="#"><img class="svg3" src="image/l_ext/tvtime.svg"></a> -->
-                    </div> 
-
-                    <div class="synopsis">
-                        <h3>Synopsis : </h3>
-                        <p>Quand un événement surnaturel secoue la petite ville natale de Naomi, l'adolescente entreprend d'en découvrir les origines. Ce qu'elle découvre va remettre en question tout ce que l'on croit sur les super-héros.</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="block_2">
-                <div class="block2_p1">
-                    <div class="trailer">
-                        <h3 class="t_trailer">Bande Annonce :</h3>
-                        <iframe width="513" height="262.5" src="https://www.youtube.com/embed/ZenAr-h71ic" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+                <div class="titre">
                     
-                    <div class="ensemble_menu"><!-- titre + bouton episode saison-->
-                        <h3 class="t_m_episode">Liste des épisodes :</h3>
-                        <div class="b_saison">
-                            <div class="menu_d" id="menu1" onclick="afficheMenu(this)">
-                                <div class="t_saison"><a href="#">Saison 1</a></div>
-                            </div>
-                            <div id="sousmenu1" style="display:none">
-                                <ol>
-                                    <li>Pilot</li>
-                                    </ol>
-                            </div>
-
-                            
-
-                            
-
-                            
-                        </div><!-- bouton saison -->
-                    </div><!-- ensemble menu -->
-
-                </div><!-- block 2 part. 1-->
-                <div class="block2_p2">
-                    <div class="cast">
-                        <h3 class="t_cast">Cast :</h3>
-                        <div class="photo_cast">
-                            <table>
-                                <div class="cast_info">
-                                    <div class="unite_photo_info"><a href="image/cast/naomi_c_1.jpg"><img src="image/Cast/naomi_c_1.jpg"></a><h5>Kaci Walfall <br/><span class="cast_as">Naomi McDuffie</span></h5></div>
-                                    <!--<div class="unite_photo_info"><a href="image/cast/naomi_c_2.jpg"><img src="image/Cast/naomi_c_2.jpg"></a><h5>Steve Agee <br/><span class="cast_as">John Economos</span></h5></div>
-                                    <div class="unite_photo_info"><a href="image/cast/naomi_c_3.jpg"><img src="image/Cast/naomi_c_3.jpg"></a><h5>Danielle Brooks <br/><span class="cast_as">Leota Adebayo</span></h5></div>
-                                    <div class="unite_photo_info"><a href="image/cast/naomi_c_4.jpg"><img src="image/Cast/naomi_c_4.jpg"></a><h5>Freddie Stroma <br/><span class="cast_as">Adrian Chase / Vigilante</span></h5></div>
-                                    <div class="unite_photo_info"><a href="image/cast/naomi_c_5.jpg"><img src="image/Cast/naomi_c_5.jpg"></a><h5>Jennifer Holand <br/><span class="cast_as">Emilia Harcourt</span></h5></div>
-                                    <div class="unite_photo_info"><a href="image/cast/naomi_c_6.jpg"><img src="image/Cast/naomi_c_6.jpg"></a><h5>Chukwudi Iwuji <br/><span class="cast_as">Clemson Murn</span></h5></div> -->
-                                    
-                                   
-                                </div>
-                            </table>
+                    <div class="poster">
+                        <a href="image/naomi_poster.jpg"><img src="image/naomi_poster-mini.jpg" alt="Poster de la série Naomi"></a>
+                    </div>
+                    <div class="infos">
+                        <div class="t_serie">
+                            <h3>Naomi</h3>
                         </div>
-                    </div><!-- cast -->
-                </div><!-- bloc 2 p2 -->
-            </div><!-- bloc 2-->
-                      
 
-            <footer>
-                
-            </footer>
+                        <div class="l_ext">
+                            <a href="https://www.imdb.com/title/tt13624900" target=_blank><img class="svg1" src="image/l_ext/imdb.svg" alt="Logo imdb (Internet Movie Database)"></a>
+                            <a href="https://www.themoviedb.org/tv/125474" target=_blank><img class="svg1" src="image/l_ext/tmdb.svg" alt="Logo TMDB (The Movie Database)"></a>
+                            <a href="https://theposterdb.com/posters/1274566" target=_blank><img class="svg2" src="image/l_ext/tpdb.svg" alt="Logo TPDB (The Poster Database)"></a>
+                            <!-- <a href="#"><img class="svg3" src="image/l_ext/tvtime.svg"></a> -->
+                        </div> 
 
-            <script src="Js/app.js" charset="utf-8"></script>
+                        <div class="synopsis">
+                            <h3>Synopsis : </h3>
+                            <p>Quand un événement surnaturel secoue la petite ville natale de Naomi, l'adolescente entreprend d'en découvrir les origines. Ce qu'elle découvre va remettre en question tout ce que l'on croit sur les super-héros.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="block_2">
+                    <div class="block2_p1">
+                        <div class="trailer">
+                            <h3 class="t_trailer">Bande Annonce :</h3>
+                            <iframe width="513" height="262.5" src="https://www.youtube.com/embed/ZenAr-h71ic" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+                        
+                        <div class="ensemble_menu"><!-- titre + bouton episode saison-->
+                            <h3 class="t_m_episode">Liste des épisodes :</h3>
+                            <div class="b_saison">
+                                <div class="menu_d" id="menu1" onclick="afficheMenu(this)">
+                                    <div class="t_saison"><a href="#">Saison 1</a></div>
+                                </div>
+                                <div id="sousmenu1" style="display:none">
+                                    <ol>
+                                        <li>Pilot</li>
+                                        </ol>
+                                </div>
+
+                                
+
+                                
+
+                                
+                            </div><!-- bouton saison -->
+                        </div><!-- ensemble menu -->
+
+                    </div><!-- block 2 part. 1-->
+                    <div class="block2_p2">
+                        <div class="cast">
+                            <h3 class="t_cast">Cast :</h3>
+                            <div class="photo_cast">
+                                <table>
+                                    <div class="cast_info">
+                                        <div class="unite_photo_info"><a href="image/cast/naomi_c_1.jpg"><img src="image/Cast/naomi_c_1.jpg"></a><h5>Kaci Walfall <br/><span class="cast_as">Naomi McDuffie</span></h5></div>
+                                        <!--<div class="unite_photo_info"><a href="image/cast/naomi_c_2.jpg"><img src="image/Cast/naomi_c_2.jpg"></a><h5>Steve Agee <br/><span class="cast_as">John Economos</span></h5></div>
+                                        <div class="unite_photo_info"><a href="image/cast/naomi_c_3.jpg"><img src="image/Cast/naomi_c_3.jpg"></a><h5>Danielle Brooks <br/><span class="cast_as">Leota Adebayo</span></h5></div>
+                                        <div class="unite_photo_info"><a href="image/cast/naomi_c_4.jpg"><img src="image/Cast/naomi_c_4.jpg"></a><h5>Freddie Stroma <br/><span class="cast_as">Adrian Chase / Vigilante</span></h5></div>
+                                        <div class="unite_photo_info"><a href="image/cast/naomi_c_5.jpg"><img src="image/Cast/naomi_c_5.jpg"></a><h5>Jennifer Holand <br/><span class="cast_as">Emilia Harcourt</span></h5></div>
+                                        <div class="unite_photo_info"><a href="image/cast/naomi_c_6.jpg"><img src="image/Cast/naomi_c_6.jpg"></a><h5>Chukwudi Iwuji <br/><span class="cast_as">Clemson Murn</span></h5></div> -->
+                                        
+                                    
+                                    </div>
+                                </table>
+                            </div>
+                        </div><!-- cast -->
+                    </div><!-- bloc 2 p2 -->
+                </div><!-- bloc 2-->
+                        
+
+                <footer>
+                    
+                </footer>
+
+                <script src="Js/app.js" charset="utf-8"></script>
+            </div><!-- Contenu tous le site sauf header-->
         </body>
     </html>
