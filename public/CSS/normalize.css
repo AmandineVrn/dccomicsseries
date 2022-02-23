@@ -91,9 +91,17 @@ h3{
 
 
 @media only screen and (max-width:1000px){
-    .l1{
+    header{
+        margin-left: -7%;
+    }
+    .contenu_html{
         margin-left: 6%;
         margin-right: 6%;
+        
+    }
+    .l1{
+       /* margin-left: 6%;
+        margin-right: 6%;*/
         border:1px solid transparent;
         
     }
