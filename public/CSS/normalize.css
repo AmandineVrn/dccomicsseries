@@ -20,12 +20,16 @@ html, body {
     
 }
 
-
+header{
+    margin-left:-230px;
+}
 
 
 
 .contenu_html{
     flex: 1 0 auto;
+    margin-left: 15%;
+    margin-right:15%;
 }
 
 footer{
@@ -67,8 +71,8 @@ h3{
 
 .l1{
     margin-top: 130px;
-    margin-left: 10%;
-    margin-right: 10%;
+    /* margin-left: 10%; 
+    margin-right: 10%; */
     display: block;
     max-height: fit-content;
     min-height: auto;
@@ -711,3 +715,5 @@ h5{
     margin-top: 5px;
     padding: 1%;
 }
+
+
