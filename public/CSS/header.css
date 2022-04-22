@@ -9,12 +9,23 @@
     
 } 
 
-.m_left {
+.m_left a{
+    border: 3px transparent solid;
     float:left;
+    display: flex;
+    flex-direction: row;
+    width: max-content;
+    height: 66px;
+
 }
 
 .m_right {
     float:right;
+}
+
+.logo_site{
+    margin-right: 0.3em;
+    padding: 0.2em;
 }
 
 .logo {

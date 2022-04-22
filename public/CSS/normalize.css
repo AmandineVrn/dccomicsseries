@@ -22,6 +22,7 @@ html, body {
 
 header{
     margin-left:-21.5%;
+    
 }
 
 
@@ -168,8 +169,9 @@ h2{
 .titre{
     margin-bottom:10px;
     margin:90px 30px 10px 30px;
-    height: 320px;
+    /*height: 320px;*/
     min-height: auto;
+    max-height: fit-content;
     max-width:95%;
     min-width: auto;
     
@@ -198,7 +200,7 @@ h2{
     border: 1px solid transparent;
     
     width:fit-content;
-    margin-bottom: 5px;
+    margin-bottom: -20px;
     margin-top: -10px;
     font-size: 1.7em;
     text-decoration: underline;
@@ -486,16 +488,16 @@ h3 .l_blue:hover{
 .menu_d, .sousmenu{
 	text-align:start;
     border: 1px solid transparent ;
-    width:95%;
+    width:100%;
     margin-bottom: 10px;
-    border-radius: 50px;
+    border-radius: 12px;
     background-color:transparent; 
     
     
 }
 .menu_d{
-	height:30px;
-	width:90%;
+	height:2em;
+	width:100%;
 	padding:4px 0 2px 10px;
 	background:#282828;
 	color:#fff;
@@ -559,12 +561,17 @@ h3 .l_blue:hover{
 
 ol li{
     list-style-type: decimal;
-    background-color:#1d1d1f; 
+    background-color:#282828; 
     border: 1px solid transparent;
     padding: 3px;
     width: 99%;
     
     
+    
+}
+
+ol.episode_name{
+    padding-top: 1em;
 }
 
 .episode_name{
@@ -574,8 +581,9 @@ ol li{
     overflow-x:hidden;
     border: 1px solid transparent ;
     padding-left: 6px;
+    margin-top: -19px;
     margin-bottom: 5px;
-
+    background-color: #282828;
 }
 
 ::-webkit-scrollbar {
@@ -637,7 +645,7 @@ ol li{
 
 .b_saison{
     border: 1px transparent solid;
-    background-color:#282828; 
+    background-color: #191919; 
     border-radius: 20px;
     width: 95%;
     max-height: 1620px;
@@ -723,6 +731,7 @@ h5{
 }
 
 .block2_p1{
+    
     border: 1px solid transparent;
     display: flex;
     height: max-content;
