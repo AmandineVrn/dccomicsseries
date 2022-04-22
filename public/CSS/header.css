@@ -10,6 +10,7 @@
 } 
 
 .m_left a{
+    margin-left: 1em;
     border: 3px transparent solid;
     float:left;
     display: flex;
