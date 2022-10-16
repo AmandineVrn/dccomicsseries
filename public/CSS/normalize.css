@@ -17,6 +17,7 @@ html, body {
     overflow-x: hidden;
     background-color: hsl(236, 18%, 7%);
     color:#fff;
+    background-image: url("../image/repeated-square-dark.webp");
     
 }
 
