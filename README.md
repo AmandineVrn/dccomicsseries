@@ -8,3 +8,8 @@ Je suis désormais étudiante dans mon 1er voeu Parcoursup, le BUT MMI.
 Ce site est une base de données, entièrement en HTML CSS et JS, toutes les données ont été rentrés à la main, c'est pour cela qu'il n'est désormais plus mis à jour.
 
 <a href="https://dccomicsseries.netlify.app">dccomicsseries.netlify.app</a>
+
+<br>
+<br>
+
+Voir mon nouveau projet :  <a href="https://mandina-posters.com">mandina-posters.com</a>
