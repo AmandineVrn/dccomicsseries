@@ -1,0 +1,7 @@
+# robots.txt pour https://dccomicsseries.netlify.app/
+
+User-agent: *
+Disallow: /public/admin/  # Exemple de répertoire à bloquer, à ajuster selon tes besoins
+Disallow: /private/       # Bloquer un autre répertoire, si nécessaire
+
+Sitemap: https://dccomicsseries.netlify.app/sitemaps.xml
